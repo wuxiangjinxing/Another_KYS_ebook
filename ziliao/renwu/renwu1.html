@@ -1,0 +1,735 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+@import url("../../js/new.css");
+#left{
+    position: fixed;
+    top: 130px;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+    border: 0px solid #000;
+	left: 150px;
+}
+#right{
+    position: fixed;
+    top: 680px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 0px solid #000;
+	right: 160px;
+}
+.STYLE1 {
+	color:#F00;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE101 {
+	color:#F00;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE2 {
+	color:#000;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE3 {
+	color:#000;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{cursor:url(../../1/7.cur);}
+html{
+    overflow:auto; 
+}
+body{
+	cursor:url(../../1/5.cur);
+	overflow:auto;
+}
+.STYLE4 {
+	color: #060;
+	font-size: 18px;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE401 {
+	color:#060;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE402 {
+	color:#060;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE6 {
+	color:#06f;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE601 {
+	color:#06f;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE10 {
+	color:#930;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE11 {
+	color:#930;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE17 {
+	color:#0C0;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE171 {
+	color:#0C0;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE19 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE191 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE21 {
+	color:#309;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE22 {
+	color: #B8860B;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE220 {
+	color:#B8860B;
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE221 {
+	color:#F63;
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE23 {
+	color:#F63;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE24 {color: #006633; font-size: 16px; font-family: Arial, Helvetica, sans-serif; }
+.STYLE25 {color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight:normal}
+.STYLE26 {color:#00688b; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE27 {color:#666; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE28 {color:#8B0000; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+.STYLE29 {color:#FF8247; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE30 {color:#A52A2A; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 32px;}
+.STYLE31 {
+	color:#FFF; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 24px;}
+.STYLE32 {
+	color: #EE9A49;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE35 {
+	color: #4B0082;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE37 {
+	color: #f0f;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE371 {
+	color: #f0f;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+<script type="text/javascript" src="../../js/iframe.js"></script>
+<script type="text/javascript" src="../../js/jquery-latest.min.js"></script>
+<script type="text/javascript" src="../../js/script.js"></script>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('../../tu/fuzhu/back3.png')">
+
+<div id="content">
+		<div class="abgne_tab">
+			<ul class="tabs">
+				<li><a href="#tab01">恩怨难清</a></li>
+				<li><a href="#tab02">比武招亲</a></li>
+				<li><a href="#tab03">乞丐与道姑</a></li>
+				<li><a href="#tab04">蛛儿与蛛儿</a></li>
+				<li><a href="#tab05">射雕比赛</a></li>
+				<li><a href="#tab06">捕蛇人</a></li>
+<li><a href="#tab07">白猿与少女</a></li>
+<li><a href="#tab08">蜀中唐门</a></li>
+<li><a href="#tab09">寒冰？？？</a></li>
+                      
+			</ul>
+			<div class="tab_container">
+				<div id="tab01" class="tab_content">				 
+                    <table width="825" border="1" align="center" bordercolor="#cccccc" cellspacing="0"><br />
+
+  <tr>  
+   <th width="45" align="center" class="STYLE2">壹</th>
+   <td width="120" align="center" class="STYLE4">玉笔山庄<br />
+（108）</td>
+   <td width="456" align="left" class="STYLE2">
+进门左边房间，与凤天南对话，<span class="STYLE35">VS凤天南</span><br />
+袁紫衣暗中相救，凤天南逃走</td>
+   <td>&nbsp;</td></tr>
+      <tr>
+   <th width="45" align="center" class="STYLE2">贰</th>
+   <td width="120" align="center" class="STYLE4">襄阳<br />
+（107）</td>
+   <td width="456" align="left" class="STYLE2">
+右上方房间，与凤天南对话，<span class="STYLE35">VS凤天南</span><br />
+袁紫衣出现，<span class="STYLE35">VS凤天南+袁紫衣</span><br />
+袁紫衣再次相救，二人离去</td>
+   <td>&nbsp;</td></tr>
+   <tr>
+   <th width="45" align="center" class="STYLE2">叁</th>
+   <td width="120" align="center" class="STYLE4">洛阳城<br />
+（40）</td>
+   <td width="456" align="left" class="STYLE2">
+客栈与凤天南对话，<span class="STYLE35">主角+袁紫衣VS凤天南</span><br />
+剧情后<span class="STYLE401">袁紫衣入队</span>，得<span class="STYLE401">[千年人参]</span></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50">&nbsp;</td>
+     <td class="STYLE171">道德+2</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/head/322.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE32">袁紫衣<span class="STYLE220">[队友]</span></td></tr>
+<tr>
+     <td width="50"><img src="../../tu/物品/16.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE402">千年人参<span class="STYLE220">[剧情物品]</span></td></tr></table>
+</td></tr></table>
+<table width="825" align="center">
+ <tr>
+  <td align="center" class="STYLE25">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+				</div>
+				<div id="tab02" class="tab_content">
+				  <table width="825" border="1" align="center" bordercolor="#cccccc" cellspacing="0"><br />
+
+  <tr>
+   <th width="45" align="center" class="STYLE2">壹</th>
+   <td width="120" align="center" class="STYLE4">襄阳<br />
+（107）</td>
+   <td width="456" align="left" class="STYLE2">
+上方与穆易对话，出现分支</td>
+   <td>&nbsp;</td></tr>
+      <tr>
+   <td width="45" align="center" class="STYLE2">1</td>
+   <td width="120" align="center" class="STYLE25">选择打擂台</td>
+   <td width="456" align="left" class="STYLE2">
+<p span class="STYLE35">VS穆念慈（可败）</p>
+<span class="STYLE171">*获胜则穆念慈入队，得</span><span class="STYLE402">[小还丹]</span><span class="STYLE171">*2+</span><span class="STYLE25">【逍遥游】</span><span class="STYLE171"><br />
+*无论胜败，事件结束</span></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/物品/0.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE402">小还丹<span class="STYLE220">[药品]</span></td></tr>
+<tr>
+     <td width="50"><img src="../../tu/物品/111.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE25">逍遥游<span class="STYLE220">[拳掌秘籍]</span></td></tr></table>
+</td></tr>
+   <tr>
+   <td width="45" align="center" class="STYLE2">2</td>
+   <td width="120" align="center" class="STYLE25">选择不打擂台</td>
+   <td width="456" align="left" class="STYLE2">
+杨康出现，<span class="STYLE35">VS杨康</span><br />
+剧情后二人离去</td>
+    <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50">&nbsp;</td>
+     <td class="STYLE171">道德+2</td></tr></table>
+</td></tr>
+<tr>
+   <th width="45" align="center" class="STYLE2">贰</th>
+   <td width="120" align="center" class="STYLE4">玉笔山庄<br />
+（108）</td>
+   <td width="456" align="left" class="STYLE2">
+与客栈酒客对话，得知完颜家近况，上客栈二楼，触发剧情</td>
+   <td>&nbsp;</td></tr>
+   <tr>
+   <th width="45" align="center" class="STYLE2">叁</th>
+   <td width="120" align="center" class="STYLE4">苏州<br />
+（110）</td>
+   <td width="456" align="left" class="STYLE2">
+右上房间触发剧情，<span class="STYLE35">主角+杨康+穆念慈VS少数官兵</span><br />
+剧情后回小村对话小二可收<span class="STYLE401">杨康</span>、<span class="STYLE401">穆念慈</span></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/head/303.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE32">杨康<span class="STYLE220">[队友]</span></td></tr>
+       <tr>
+       <td width="50"><img src="../../tu/head/321.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE32">穆念慈<span class="STYLE220">[队友]</span></td></tr>
+       <tr>
+     <td width="50"><img src="../../tu/物品/186.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE25">杨家枪法<span class="STYLE220">[奇门秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/111.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE25">逍遥游<span class="STYLE220">[拳掌秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/287.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE371">金关玉锁诀<br />       <span class="STYLE220">[内功秘籍]</span></td></tr>
+<tr>
+     <td width="50"><img src="../../tu/物品/0.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE402">小还丹*2<span class="STYLE220">[药品]</span></td></tr></table>
+</td></tr>
+</table>
+<table width="825" align="center">
+ <tr>
+  <td align="center" class="STYLE25">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+				</div>
+                				<div id="tab03" class="tab_content">
+                				 <table width="825" border="1" align="center" bordercolor="#cccccc" cellspacing="0"><br />
+
+  <tr>
+   <th width="45" align="center" class="STYLE2">壹</th>
+   <td width="120" align="center" class="STYLE4">洛阳城<br />
+（40）</td>
+   <td width="456" align="left" class="STYLE2">
+客栈与李莫愁对话，出现分支</td>
+   <td>&nbsp;</td></tr>
+      <tr>
+   <td width="45" align="center" class="STYLE2">1</td>
+   <td width="120" align="center" class="STYLE25">选择出手</td>
+   <td width="456" align="left" class="STYLE2">
+<span class="STYLE35">VS李莫愁</span>，获胜后事件结束</td>
+    <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/物品/18.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE402">叫化鸡<span class="STYLE220">[药品]</span></td></tr>
+<tr>
+     <td width="50"><img src="../../tu/物品/111.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE25">逍遥游<span class="STYLE220">[拳掌秘籍]</span></td></tr></table>
+</td></tr>
+   <tr>
+   <td width="45" align="center" class="STYLE2">2</td>
+   <td width="120" align="center" class="STYLE25">选择不出手</td>
+   <td width="456" align="left" class="STYLE2">
+耶律齐出现，<span class="STYLE35">主角+耶律齐VS李莫愁</span><br />
+获胜后出现分支</td>
+    <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+       <td width="50">&nbsp;</td>
+       <td class="STYLE402">&nbsp;</td></tr></table>
+</td></tr>
+<tr>
+   <td width="45" align="center" class="STYLE2">①</td>
+   <td width="120" align="center" class="STYLE402">道德&lt;70</td>
+   <td width="456" align="left" class="STYLE2">
+事件结束</td>
+   <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+       <td width="50"><img src="../../tu/物品/18.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE402">叫化鸡<span class="STYLE220">[药品]</span></td></tr></table>
+</td></tr>
+   <tr>
+   <td width="45" align="center" class="STYLE2">②</td>
+   <td width="120" align="center" class="STYLE402">道德&gt;70</td>
+   <td width="456" align="left" class="STYLE2">耶律齐前往小村，回小村对话小二可收耶律齐，得<span class="STYLE1">【三花聚顶掌】</span>、<span class="STYLE37">【金关玉锁决】</span></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/head/306.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE32">耶律齐<span class="STYLE220">[队友]</span></td></tr>
+     <tr>
+       <td width="50"><img src="../../tu/物品/266.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE25">三花聚顶掌<br />         <span class="STYLE220">[拳法秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/287.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE371">金关玉锁诀<br />       <span class="STYLE220">[内功秘籍]</span></td></tr>
+     </table>
+</td></tr>
+<tr>
+   <th width="45" align="center" class="STYLE2">贰</th>
+   <td width="120" align="center" class="STYLE4">百花谷<br />
+（20）</td>
+   <td width="456" align="left" class="STYLE2"><p>耶律齐在队时，与周伯通对话，<span class="STYLE35">耶律齐VS周伯通</span><br />
+胜利或者坚持100时序内不败，则耶律齐称号觉醒，攻防轻+15，学会左右互搏</p>
+     <span class="STYLE171">*耶律齐觉醒后会有领悟金关玉锁诀的剧情，可选择是否领悟</span></td>
+    <td valign="middle">&nbsp;</td></tr>
+   </table>
+   <table width="825" align="center">
+ <tr>
+  <td align="center" class="STYLE25">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+                				</div>                    
+				<div id="tab04" class="tab_content">
+				  <table width="825" border="1" align="center" bordercolor="#cccccc" cellspacing="0"><br />
+
+  <tr>  
+   <th width="45" align="center" class="STYLE2">壹</th>
+   <td width="120" align="center" class="STYLE4">蜘蛛山洞<br />
+（10）</td>
+   <td width="456" align="left" class="STYLE2">
+射雕剧情进行到桃花岛剧情以后，蜘蛛山洞开启<br />
+身上有化功大法时，左上方与殷离对话，<span class="STYLE35">VS多数明教弟子</span><br />
+获胜后<span class="STYLE35">VS多数蜘蛛</span>，获胜后出现分支</td>
+   <td>&nbsp;</td></tr>
+      <tr>
+   <th width="45" align="center" class="STYLE2">1</th>
+   <td width="120" align="center" class="STYLE25">主角无宠物</td>
+   <td width="456" align="left" class="STYLE2">
+殷离携宠物彩蛛入队，得<span class="STYLE1">【千蛛万毒手】</span>、<span class="STYLE401">[黑玉断续膏]</span></td>
+   <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50"><img src="../../tu/head/317.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE32">殷离<span class="STYLE220">[队友]</span></td></tr>
+  <tr>
+  <td width="50"><img src="../../tu/物品/263.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE25">千蛛万毒手<br />
+<span class="STYLE220">[拳法秘籍]</span></td></tr>
+  <tr>
+  <td width="50"><img src="../../tu/物品/2.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE402">黑玉断续膏<span class="STYLE220">[药品]</span></td></tr></table>
+</td></tr>
+   <tr>
+   <th width="45" align="center" class="STYLE2">2</th>
+   <td width="120" align="center" class="STYLE25">主角有宠物</td>
+   <td width="456" align="left" class="STYLE2">
+殷离离去，得<span class="STYLE401">[烈阳丸]</span>，事件结束</td>
+    <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50"><img src="../../tu/物品/256.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE402">烈阳丸<span class="STYLE220">[药品]</span></td></tr></table>
+</td></tr></table>
+<table width="825" align="center">
+ <tr>
+  <td align="center" class="STYLE25">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+				</div>
+                				<div id="tab05" class="tab_content">
+                				  <table width="825" border="1" align="center" bordercolor="#cccccc" cellspacing="0"><br />
+
+  <tr>  
+   <th width="45" align="center" class="STYLE2">壹</th>
+   <td width="120" align="center" class="STYLE4">有间客栈<br />
+（3）</td>
+   <td width="456" align="left" class="STYLE2">
+与店小二对话，出现分支</td>
+   <td>&nbsp;</td></tr>
+      <tr>
+   <th width="45" align="center" class="STYLE2">1</th>
+   <td width="120" align="center" class="STYLE25">郭靖不在队伍<br />
+或选择不参加</td>
+   <td width="456" align="left" class="STYLE2">
+主角轻功+10，事件结束</td>
+   <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50">&nbsp;</td>
+  <td class="STYLE32">&nbsp;</td></tr></table>
+</td></tr>
+   <tr>
+   <th width="45" align="center" class="STYLE2">2</th>
+   <td width="120" align="center" class="STYLE25">郭靖在队伍，选择参加</td>
+   <td width="456" align="left" class="STYLE2">
+<p>扣掉500银两，<span class="STYLE35">主角+郭靖+两名猎手VS大雕</span><br />
+获胜后得<span class="STYLE10">[射雕弓]</span>、<span class="STYLE1">【白羽箭法】</span>、<span class="STYLE19">【羿落天阳】</span>，全队属性随机提升</p>
+<span class="STYLE171">*如果由郭靖击败大雕，会触发觉醒剧情<br />
+*如果之前没有宠物，则获得宠物大雕</span></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50"><img src="../../tu/物品/294.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE11">射雕弓<span class="STYLE220">[武器]</span></td></tr>
+  <tr>
+  <td width="50"><img src="../../tu/物品/285.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE25">白羽箭法<span class="STYLE220">[暗器秘籍]</span></td></tr>
+  <tr>
+  <td width="50"><img src="../../tu/印.png" alt="" width="50" height="25" /></td>
+  <td class="STYLE191">【羿落天阳】</td></tr></table>
+</td></tr></table>
+<table width="825" align="center">
+ <tr>
+  <td align="center" class="STYLE25">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+			  </div>
+				<div id="tab06" class="tab_content">
+                				  <table width="825" border="1" align="center" bordercolor="#cccccc" cellspacing="0"><br />
+
+  <tr>  
+   <th width="45" align="center" class="STYLE2">壹</th>
+   <td width="120" align="center" class="STYLE4">金蛇山洞<br />
+（46）</td>
+   <td width="456" align="left" class="STYLE2">
+对话玄蟒，出现分支</span></td>
+   <td>&nbsp;
+   </td></tr>
+  <tr>  
+   <th width="45" align="center" class="STYLE2">1</th>
+   <td width="120" align="center" class="STYLE25">欧阳克不在队伍</td>
+   <td width="456" align="left" class="STYLE2">
+<p><span class="STYLE35">VS玄蟒+多数毒蛇</span>，胜利后获得蛇胆</p>
+<span class="STYLE171">*如果没加入门派此时可选择是否加入白驼山</span></td>
+   <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50"><img src="../../tu/物品/259.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE402">蛇胆<span class="STYLE220">[药品]</span></td></tr></table></td></tr>
+      <tr>
+   <th width="45" align="center" class="STYLE2">2</th>
+   <td width="120" align="center" class="STYLE25">欧阳克在队伍<br />
+且选择不捕获</td>
+   <td width="456" align="left" class="STYLE2">
+<span class="STYLE35">主角+欧阳克VS玄蟒</span>，胜利后获得蛇胆</td>
+   <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50"><img src="../../tu/物品/259.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE402">蛇胆<span class="STYLE220">[药品]</span></td></tr></table></td></tr>
+   <tr>
+   <th width="45" align="center" class="STYLE2">3</th>
+   <td width="120" align="center" class="STYLE25">欧阳克在队伍<br />
+且身上有叫化鸡</td>
+   <td width="456" align="left" class="STYLE2">
+<p>选择捕获，<span class="STYLE35">主角+欧阳克VS玄蟒</span><br />
+获胜后收玄蟒为宠物</p>
+<span class="STYLE171">*需要之前无宠物<br />
+*主角内力上限减少500</span></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50">&nbsp;</td>
+  <td class="STYLE11">&nbsp;</td></tr></table>
+</td></tr></table>
+<table width="825" align="center">
+ <tr>
+  <td align="center" class="STYLE25">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+				</div>	
+                <div id="tab07" class="tab_content">
+   				  <table width="825" border="1" align="center" bordercolor="#cccccc" cellspacing="0"><br />
+
+  <tr>  
+   <th width="45" align="center" class="STYLE2">壹</th>
+   <td width="120" align="center" class="STYLE4">树林<br />
+（109）</td>
+   <td width="456" align="left" class="STYLE2">
+<p>与白猿对话，出现分支</p>
+<span class="STYLE171">*注意此处会先触发鸳鸯刀中常规线的阿九线，如果不想走这条线路请先去触发其他路线</span></td>
+   <td>&nbsp;</td></tr>
+      <tr>
+   <th width="45" align="center" class="STYLE2">1</th>
+   <td width="120" align="center" class="STYLE25">没有即墨老酒</td>
+   <td width="456" align="left" class="STYLE2">
+<span class="STYLE35">VS白猿+多数雪怪</span><br />
+获胜后获得<span class="STYLE401">[大蟠桃]</span>*3，<span class="STYLE401">[千年灵芝]</span>*3，<span class="STYLE401">[即墨老酒]</span>*5，事件结束</td>
+   <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50"><img src="../../tu/物品/15.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE402">大蟠桃<span class="STYLE220">[药品]</span></td></tr>
+  <tr>
+  <td width="50"><img src="../../tu/物品/14.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE402">千年灵芝<span class="STYLE220">[药品]</span></td></tr>
+  <tr>
+  <td width="50"><img src="../../tu/物品/24.png" alt="" width="50" height="50" /></td>
+  <td class="STYLE402">即墨老酒<span class="STYLE220">[药品]</span></td></tr></table></td></tr>
+   <tr>
+   <th width="45" align="center" class="STYLE2">2</th>
+   <td width="120" align="center" class="STYLE25">有即墨老酒<br />
+选择捉白猿</td>
+   <td width="456" align="left" class="STYLE2">
+<p><span class="STYLE35">VS白猿+多数雪怪</span><br />
+获胜后收白猿为宠物</p>
+<span class="STYLE171">*如果有宠物则默认选择不捉白猿</span></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50">&nbsp;</td>
+  <td class="STYLE11">&nbsp;</td></tr></table>
+</td></tr>
+<tr>
+   <th width="45" align="center" class="STYLE2">3</th>
+   <td width="120" align="center" class="STYLE25">有即墨老酒<br />
+选择不捉白猿</td>
+   <td width="456" align="left" class="STYLE2">
+阿青出现，<span class="STYLE35">主角VS白猿</span>，获胜后出现分支</td>
+    <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50">&nbsp;</td>
+  <td class="STYLE11">&nbsp;</td></tr></table>
+</td></tr>
+<tr>
+   <td width="45" align="center" class="STYLE2">①</td>
+   <td width="120" align="center" class="STYLE25">道德&ge;100<br />
+缺少千年人参或天王保命丸</td>
+   <td width="456" align="left" class="STYLE2">
+事件结束</td>
+    <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50">&nbsp;</td>
+       <td class="STYLE191">&nbsp;</td>
+     </tr></table>
+</td></tr>
+<tr>
+   <td width="45" align="center" class="STYLE2">②</td>
+   <td width="120" align="center" class="STYLE25">道德&ge;100<br />
+有千年人参及天王保命丸</td>
+   <td width="456" align="left" class="STYLE2">
+阿青送<span class="STYLE19">【听风辨位】</span>印信，事件结束</td>
+    <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/印.png" alt="" width="50" height="25" /></td>
+       <td class="STYLE191">【听风辨位】</td>
+     </tr></table>
+</td></tr>
+<tr>
+   <td width="45" align="center" class="STYLE2">③</td>
+   <td width="120" align="center" class="STYLE25">道德&lt;100</td>
+   <td width="456" align="left" class="STYLE2">
+<span class="STYLE35">主角VS阿青</span>，获胜后<span class="STYLE401">阿青入队</span></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/head/301.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE32">阿青<span class="STYLE220">[队友]</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/物品/301.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE11">青竹棒<span class="STYLE220">[武器]</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/物品/24.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE402">即墨老酒<span class="STYLE220">[药品]</span></td>
+     </tr></table>
+</td></tr></table>
+<table width="825" align="center">
+ <tr>
+  <td align="center" class="STYLE25">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+				</div>
+                <div id="tab08" class="tab_content">
+                				  <table width="827" border="1" align="center" bordercolor="#cccccc" cellspacing="0"><br />
+
+  <tr>  
+   <th width="45" align="center" class="STYLE2">壹</th>
+   <td width="120" align="center" class="STYLE4">&nbsp;</td>
+   <td width="648" align="left" class="STYLE2">
+  <p>找齐小还丹、天香续命膏、黑玉断续膏、白云熊胆丸、田七鲨胆散、九花玉露丸、九转熊蛇丸、无常丹、天王保命丹、黄连解毒丸、牛黄血竭丹、六阳正气丹、精气丸、玉灵散各5个交付唐萌浅，出现分支</p>
+  <span class="STYLE171">*如何快速获得药物参考攻略</span></td>
+   </tr>
+      <tr>
+   <th width="45" align="center" class="STYLE2">1</th>
+   <td width="120" align="center" class="STYLE25">主角姓唐且暗器值&ge;80</td>
+   <td width="648" align="left" class="STYLE2">
+  <p>可选择加入唐门</p>
+  <span class="STYLE171">*暗器标主无暗器值限制</span></td>
+   </tr>
+   <tr>
+   <th width="45" align="center" class="STYLE2">2</th>
+   <td width="120" align="center" class="STYLE25">主角不姓唐或暗器值&lt;80</td>
+   <td width="648" align="left" class="STYLE2">
+     随机获得银两和药品奖励，事件结束</td>
+    </tr></table>
+
+				</div>			
+                <div id="tab09" class="tab_content">
+                				  <table width="825" border="1" align="center" bordercolor="#cccccc" cellspacing="0"><br />
+
+  <tr>  
+   <th width="45" align="center" class="STYLE2">壹</th>
+   <td width="120" align="center" class="STYLE4">无名山洞<br />
+（41）</td>
+   <td width="456" align="left" class="STYLE2">
+山洞右上方对话冰蚕，出现分支</td>
+   <td>&nbsp;</td></tr>
+      <tr>
+   <th width="45" align="center" class="STYLE2">1</th>
+   <td width="120" align="center" class="STYLE25">游坦之和阿紫同时在队伍</td>
+   <td width="456" align="left" class="STYLE2">
+<span class="STYLE35">阿紫+游坦之VS慧净</span>，获胜后得<span class="STYLE401">[寒露丹]</span>，游坦之称号觉醒</td>
+   <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/物品/257.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE402">寒露丹<span class="STYLE220">[药品]</span></td>
+     </tr></table>
+</td></tr>
+   <tr>
+   <th width="45" align="center" class="STYLE2">2</th>
+   <td width="120" align="center" class="STYLE25">游坦之和阿紫不同时在队伍</td>
+   <td width="456" align="left" class="STYLE2">
+主角内力最大值+500，事件结束</td>
+    <td valign="middle">
+   <table width="100%" border="0">
+<tr>
+  <td width="50">&nbsp;</td>
+  <td class="STYLE11">&nbsp;</td></tr></table>
+</td></tr></table>
+
+			  </div>
+		  </div>
+		</div>           		
+</div>  
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+@import url("../../js/new.css");
+#left{
+    position: fixed;
+    top: 130px;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+    border: 0px solid #000;
+	left: 150px;
+}
+#right{
+    position: fixed;
+    top: 680px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 0px solid #000;
+	right: 160px;
+}
+.STYLE1 {
+	color:#F00;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE101 {
+	color:#F00;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE2 {
+	color:#000;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE3 {
+	color:#000;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{cursor:url(../../1/7.cur);}
+html{
+	overflow-x:hidden; 
+    overflow-y:auto; 
+}
+body{
+	cursor:url(../../1/5.cur);
+	overflow-y:hidden;
+	background-image:url(../../tu/body_bg.jpg);
+}
+.STYLE4 {
+	color:#060;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE401 {
+	color:#060;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE6 {
+	color:#06f;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE601 {
+	color:#06f;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE10 {
+	color:#930;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE17 {
+	color:#0C0;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE19 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE191 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE21 {
+	color:#309;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE22 {
+	color:#B8860B;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE220 {
+	color:#B8860B;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE221 {
+	color:#F63;
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE23 {
+	color:#F63;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE24 {color: #006633; font-size: 16px; font-family: Arial, Helvetica, sans-serif; }
+.STYLE25 {color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight:normal}
+.STYLE26 {color:#00688b; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE27 {color:#666; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE28 {color:#8B0000; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+.STYLE29 {color:#FF8247; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;}
+.STYLE30 {color:#A52A2A; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 20px;}
+-->
+</style>
+<script type="text/javascript" src="/iframe.js"></script>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('../../tu/fuzhu/back3.png')">
+<table width="850" border="0" align="center">
+  <tr>
+  <td width="200" align="left"><img src="../../tu/pianmu/zhuangtai1.png" width="175" height="60" name="top" border="0" /></td>
+  <td align="right"><a href="../../index.html" onMouseOver="MM_swapImage('Image1','','../../tu/fuzhu/back3.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../../tu/fuzhu/back2.png" alt="" name="Image1" width="50" height="50" border="0" id="Image1" /></a></td>
+  </tr>
+</table>
+<table width="850" border="0" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+  <td width="850" height="20" class="STYLE191">在游戏的战斗过程中，根据所学武功的不同，会给角色附加各种状态，有增益也有负面状态，合理利用各种状态可以帮助玩家战胜原本看似强大的敌人</td></tr>
+</table>
+<br />
+<br />
+<table width="850" border="0" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+  <td align="left" width="150" height="30" class="STYLE25" colspan="3">图标类状态</td></tr></table>
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+  <td align="center" width="150" height="30" class="STYLE29">状态名称</td>
+  <td align="center" width="150" class="STYLE29">状态图标</td>
+  <td align="center" class="STYLE29">状态效果</td></tr>
+  <tr>
+   <td align="center" class="STYLE30">鼓舞</td>
+   <td align="center"><img src="../../tu/fuzhu/buff01.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">攻击力上升</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">破兵</td>
+   <td align="center"><img src="../../tu/fuzhu/buff02.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">攻击力下降</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">刚体</td>
+   <td align="center"><img src="../../tu/fuzhu/buff03.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">防御力上升</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">碎甲</td>
+   <td align="center"><img src="../../tu/fuzhu/buff04.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">防御力下降</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">神行</td>
+   <td align="center"><img src="../../tu/fuzhu/buff05.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">集气值上升</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">羁绊</td>
+   <td align="center"><img src="../../tu/fuzhu/buff06.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">集气值下降</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">补益</td>
+   <td align="center"><img src="../../tu/fuzhu/buff07.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">时序恢复生命和内伤</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">毒击</td>
+   <td align="center"><img src="../../tu/fuzhu/buff08.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">时序失去生命以及增加中毒值</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">盲目</td>
+   <td align="center"><img src="../../tu/fuzhu/buff09.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">下回合攻击无法命中</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">封印</td>
+   <td align="center"><img src="../../tu/fuzhu/buff10.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">下回合无法进行攻击（NPC被封印将进入待机状态）</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">缠足</td>
+   <td align="center"><img src="../../tu/fuzhu/buff11.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">无法进行移动</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">定身</td>
+   <td align="center"><img src="../../tu/fuzhu/buff12.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">集气值为零</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">混乱</td>
+   <td align="center"><img src="../../tu/fuzhu/buff13.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">不分敌我攻击</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">魅惑</td>
+   <td align="center"><img src="../../tu/fuzhu/buff14.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">敌我身份转换</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">隐蔽</td>
+   <td align="center"><img src="../../tu/fuzhu/buff15.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">受到的攻击等同为误伤，进行攻击则解除</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">蛊毒</td>
+   <td align="center"><img src="../../tu/fuzhu/buff16.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">行动后集气从负值算起</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">冰心</td>
+   <td align="center"><img src="../../tu/fuzhu/buff17.png" width="40" height="36" /></td>
+   <td align="left" class="STYLE2">怒气无法增长</td></tr>
+</table>
+<br />
+<br />
+<table width="850" border="0" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+  <td align="left" width="150" height="30" class="STYLE25" colspan="2">常规类状态</td></tr></table>
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+  <td align="center" width="150" height="30" class="STYLE29">状态名称</td>
+  <td align="center" class="STYLE29">状态效果</td>
+  </tr>
+  <tr>
+   <td align="center" class="STYLE30"><p align="center">中毒</p></td>
+   <td align="left" class="STYLE2">中毒上限为110（极）<br />
+◆中毒无法自动恢复，需要靠解毒指令、解毒药品或者解毒的内功之类的来恢复中毒<br />
+◆中毒后三围属性全面降低（星宿派相反），集气速度降低（20点中毒降低1点集气速度）<br />
+◆中毒后移动能力也会降低（中毒≥50移动能力-1，中毒到极移动能力-2）<br />
+◆毒抗可以降低通常情况下受到的中毒，但是对于一些无视毒抗的效果没有作用（比如化功、欧阳锋天赋等）<br />
+◆NPC身上中毒高了，会有很大的几率优先使用身上的解毒药解毒</td></tr>
+   <tr>
+   <td align="center" class="STYLE30"><p align="center">内伤</p></td>
+   <td align="left" class="STYLE2">内伤上限为110（极）<br />
+◆通常情况下被攻击破气防后才会产生内伤，气防越高受到的内伤就越低<br />
+◆气防高于对方气攻时或者免疫杀气时不会受到内伤，一些武功特效能无视气防上内伤（如铁掌、七伤拳）<br />
+◆内伤无法自动恢复，需要靠医疗指令、恢复药品或者一些内功的特效来恢复<br />
+◆内伤会降低医疗、补血药的回血效果<br />
+◆内伤会全面降低攻防效果（满内伤情况下攻防效果降低30%，NPC降低25%）<br />
+◆我方每10点内伤降低1.5点集气速度（结果取整），NPC每25点内伤降低1点集气速度<br />
+◆我方和NPC每10点内伤，流血效果每时序额外损失1点生命值<br />
+◆内伤也会使移动能力降低（内伤≥50移动能力-1，内伤到极移动能力-2）<br />
+◆NPC身上内伤高了，会有很大的几率优先使用身上的恢复药来恢复 </td></tr>
+   <tr>
+   <td align="center" class="STYLE30"><p align="center">流血</p></td>
+   <td align="left" class="STYLE2">流血上限为100<br />
+◆流血会按时序恢复（每时序恢复1点）并同时损失生命值（npc扣除1，我方随机扣除1-3）<br />
+◆内伤、灼烧会大幅提高流血的效果<br />
+我方每点流血每时序损失（1.375点+内伤加成）*[灼烧加成]的生命值<br />
+NPC每点流血每时序损失（1点+内伤加成）*[灼烧加成]的生命值<br />
+◆内伤加成：我方与NPC每10点内伤 流血效果每时序额外损失1点生命值<br />
+◆灼烧加成：身上有灼烧状态时，总流血效果*200%，重度灼烧（灼烧超过20）则总流血效果*300%</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">封穴</td>
+   <td align="left" class="STYLE2">封穴上限为50<br />
+◆封穴会按时序恢复（每时序恢复1点），同时会使集气暂停直到封穴为零<br />
+◆攻击时需产生足够高的伤害（伤害需≥50）才有几率产生封穴，封穴曲线平滑，随伤害值的增大而增大<br />
+◆攻击所产生的封穴数值与伤害的高低有关，具体的数值约为伤害/10<br />
+◆暴怒状态下回封穴速度加倍可与其他回封穴效果叠加<br />
+◆各种抗封穴的效果可以叠加，如九阳被动与乾坤主运可叠加至60% </td></tr>
+   <tr>
+   <td align="center" class="STYLE30"><p align="center">迟缓</p></td>
+   <td align="left" class="STYLE2">迟缓上限为50<br />
+◆迟缓会按时序恢复（每时序恢复1点）<br />
+◆迟缓状态降低1半集气速度，同时存在冰封时则先计算冰封再计算迟缓 </td></tr>
+   <tr>
+   <td align="center" class="STYLE30">冰封</td>
+   <td align="left" class="STYLE2">冰封上限为50<br />
+◆冰封会按时序恢复（每时序恢复1点），同时每时序损失1-5点内力<br />
+◆冰封≥30时进入寒冰状态，寒冰状态每时序随机6-10点内力<br />
+◆冰封状态降低集气速度5点，冰封20以上降低集气速度10点，<br />
+◆被寒冰领悟攻击，冰封30集气降低15点，冰封40（冻结状态）集气降低25点。<br />
+◆同时存在灼烧状态，冰封损失内力的效果加倍<br />
+◆同时存在内伤状态，冰封损失内力效果增加1/5的内伤程度，同时50点内伤则损耗内力为2倍，内伤到极为3倍</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">灼烧</td>
+   <td align="left" class="STYLE2">灼烧上限为50，灼烧＜20为轻度灼烧，≥20为重度灼烧<br />
+轻度灼烧防御降低20%，重度灼烧防御降低30%<br />灼烧会按时序恢复（每时序恢复1点），NPC自带回灼烧速度加倍<br />
+◆重度灼烧时，会产生"头昏眼花.攻击落空"状态，使集气紊乱，攻击10%有几率落空<br />
+◆重度灼烧状态下，每时序受到的内伤增加1点<br />
+◆灼烧会大幅会使流血效果加倍（灼烧流血效果*200%，重度则是300%）<br />
+◆灼烧会使冰封状态损失内力的效果加倍 </td></tr>
+   <tr>
+   <td align="center" class="STYLE30">集气倒走</td>
+   <td align="left" class="STYLE2">目标集气倒走规则：<br />
+◆计算集气倒走速度时，集气速度可以受到迟缓、冰封、暴怒和擒龙功领悟等因素的影响(不再按基础集气速度计算)，但不考虑紊乱问题<br />
+◆在非暴怒情况下，若中了集气倒走状态，当前速度低于50的，倒走速度按（100-当前速度）计算；当前速度高于50的，按当前速度计算<br />
+◆在暴怒情况下，若中了集气倒走状态，当前速度低于100的，倒走速度按）200-当前速度——计算；当前速度高于100的，按当前速度计算暴怒时集气倒走为两倍速</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">传音搜魂</td>
+   <td align="left" class="STYLE2">◆目标时序集气紊乱并增加内伤，内力越高集气紊乱幅度越大，内力越高时序内伤越小<br />
+◆处于此状态时，攻击几率触发头晕目眩，攻击无伤害</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">回魂仙梦</td>
+   <td align="left" class="STYLE2">◆目标敌人集气速度减半并集气紊乱</td></tr>
+   <tr>
+   <td align="center" class="STYLE30">八荒八灭</td>
+   <td align="left" class="STYLE2">◆每隔30时序集气紊乱10时序</td></tr>
+</table>
+<br />
+<br />
+<table width="850" border="0" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+  <td align="left" width="150" height="30" class="STYLE25" colspan="2">陷阱类状态</td></tr></table>
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+  <td align="center" width="150" height="30" class="STYLE29">状态名称</td>
+  <td align="center" class="STYLE29">状态效果</td>
+  </tr>
+  <tr>
+   <td align="center" class="STYLE30" height="40">七死爆毒</td>
+   <td align="left" class="STYLE2">◆目标在加力或护体时根据堆加状态层数与中毒情况损失生命与内力</td></tr>
+   <tr>
+   <td align="center" class="STYLE30" height="40">三藐菩提</td>
+   <td align="left" class="STYLE2">◆目标在加力时气攻降为0</td></tr>
+   <tr>
+   <td align="center" class="STYLE30" height="40">多罗迦叶</td>
+   <td align="left" class="STYLE2">◆目标在护体时气防降为0</td></tr>
+   <tr>
+   <td align="center" class="STYLE30" height="40">透魂剑锋</td>
+   <td align="left" class="STYLE2">◆目标在加力或者护体后则陷入1回合封印状态，且100时序内攻防集气全面降低</td></tr>
+   <tr>
+   <td align="center" class="STYLE30" height="40">寒毒风脉</td>
+   <td align="left" class="STYLE2">◆目标在该状态下加力或者护体后则进入深度寒冰状态（50冰封），并迟缓50时序
+   <tr>
+   <td align="center" class="STYLE30" height="40">业障缠身</td>
+   <td align="left" class="STYLE2">◆被攻击者在下一次护体或加力时触发，集气速度大幅下降，且容易头晕目眩，内伤增加</td></tr>
+   <tr>
+   <td align="center" class="STYLE30" height="40">火毒攻心</td>
+   <td align="left" class="STYLE2">◆目标在护体时出现内伤并扣除少量生命，加力时扣除一定生命</td></tr>
+   <tr>
+   <td align="center" class="STYLE30" height="40">千本落英</td>
+   <td align="left" class="STYLE2">◆目标在护体或者加力时爆发因内伤和流血造成的身体隐患</td></tr>
+   <tr>
+   <td align="center" class="STYLE30" height="40">八音穿心</td>
+   <td align="left" class="STYLE2">◆敌人在攻击回合的移动格数决定了自己行动后被扣除的生命与内力，超过八格则出现<span class="STYLE1">【千本落英】</span>状态</td></tr>
+   <tr>
+   <td align="center" class="STYLE30" height="40">龙象气劲</td>
+   <td align="left" class="STYLE2">◆领悟龙象般若功后攻击时几率对目标造成龙象气劲入体<br />
+◆攻击时第一次伤害可对有龙象气劲的人造成气劲爆发伤害，目标行动后气劲爆发对目标所有人造成100点伤害(此伤害受龙怒加成)，气劲消失</td></tr>
+   <tr>
+   <td align="center" class="STYLE30" height="40">血气诅咒</td>
+   <td align="left" class="STYLE2">目标中状态后，被攻击则伤害加深，同时集气速度减少10%</td></tr>
+</table>
+<table width="850" align="center">
+ <tr>
+  <td><hr /></td></tr></table>
+   <table width="850" align="center">
+ <tr>
+  <td align="center" class="STYLE101">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE4">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+  <div id="left">
+    <table width="95" border="1" cellspacing="0" bordercolor="#cccccc" frame="box">
+     <tr>
+      <td height="35" align="center" valign="middle"><a onmouseover="MM_swapImage('Imagea1','','../../tu/fuzhu/float-01.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tianshu/tianshu.html"><IMG id=Imagea1 border=0 name=Imagea1 alt="" src="../../tu/fuzhu/float01.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea2','','../../tu/fuzhu/float-02.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhixian/zhixian.html"><IMG id=Imagea2 border=0 name=Imagea2 alt="" src="../../tu/fuzhu/float02.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea3','','../../tu/fuzhu/float-03.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/menpai/menpai.html"><IMG id=Imagea3 border=0 name=Imagea3 alt="" src="../../tu/fuzhu/float03.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea4','','../../tu/fuzhu/float-04.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/ren/ren.html"><IMG id=Imagea4 border=0 name=Imagea4 alt="" src="../../tu/fuzhu/float04.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea5','','../../tu/fuzhu/float-05.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/gongfa/gongfa.html"><IMG id=Imagea5 border=0 name=Imagea5 alt="" src="../../tu/fuzhu/float05.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea6','','../../tu/fuzhu/float-06.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yaowu/yaowu.html"><IMG id=Imagea6 border=0 name=Imagea6 alt="" src="../../tu/fuzhu/float06.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea7','','../../tu/fuzhu/float-07.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yinxin/yinxin.html"><IMG id=Imagea7 border=0 name=Imagea7 alt="" src="../../tu/fuzhu/float07.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea8','','../../tu/fuzhu/float-08.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/bingjia/bingjia.html"><IMG id=Imagea8 border=0 name=Imagea8 alt="" src="../../tu/fuzhu/float08.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea9','','../../tu/fuzhu/float-09.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/renwu/renwu.html"><IMG id=Imagea9 border=0 name=Imagea9 alt="" src="../../tu/fuzhu/float09.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea10','','../../tu/fuzhu/float-10.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tiaozhan/tiaozhan.html"><IMG id=Imagea10 border=0 name=Imagea10 alt="" src="../../tu/fuzhu/float10.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea11','','../../tu/fuzhu/float-11.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/jichu/jichu.html"><IMG id=Imagea11 border=0 name=Imagea11 alt="" src="../../tu/fuzhu/float11.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Imagea12','','../../tu/fuzhu/float-12.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhuangtai/zhuangtai.html"><IMG id=Imagea12 border=0 name=Imagea12 alt="" src="../../tu/fuzhu/float12.png" width=90 height=35 /></a></td></tr>
+  </table></div>
+<div id="right"><a onmouseover="MM_swapImage('Imagea13','','../../tu/fuzhu/top01-1.png',1)" onmouseout=MM_swapImgRestore() href="#top"><IMG id=Imagea13 border=0 name=Imagea13 alt="" src="../../tu/fuzhu/top01.png" width=90 height=35 /></a></div>
+</body>
+</html>

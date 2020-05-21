@@ -1,0 +1,756 @@
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 transitional//EN" "http://www.w3.org/tr/xhtml1/Dtd/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+@import url("../../js/new.css");
+#left{
+    position: fixed;
+    top: 130px;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+    border: 0px solid #000;
+	left: 150px;
+}
+#right{
+    position: fixed;
+    top: 680px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 0px solid #000;
+	right: 160px;
+}
+.STYLE1 {
+	color:#F00;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE101 {
+	color:#F00;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE2 {
+	color: #333399;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE201 {
+	color: #F63;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE202 {
+	color: #F00;
+	font-size: 18px;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE3 {
+	color:#000;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{cursor:url(../../1/7.cur);}
+html{
+	overflow-x:hidden; 
+    overflow-y:auto; 
+}
+body{
+	cursor:url(../../1/5.cur);
+	overflow-y:hidden;
+	background-image:url(../../tu/body_bg.jpg);
+}
+.STYLE4 {
+	color: #000;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE401 {
+	color: #060;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE6 {
+	color:#06f;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE601 {
+	color:#06f;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE10 {
+	color: #930;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE17 {
+	color:#0C0;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE19 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE191 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE21 {
+	color:#309;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE22 {
+	color:#B8860B;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE220 {
+	color:#B8860B;
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE221 {
+	color:#F63;
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE23 {
+	color:#F63;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE24 {color: #006633; font-size: 16px; font-family: Arial, Helvetica, sans-serif; }
+.STYLE25 {color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight:normal}
+.STYLE26 {color:#00688b; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE261 {
+	color: #00688b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+}
+.STYLE27 {color:#666; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE28 {color:#8B0000; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+.STYLE29 {color:#FF8247; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE30 {color:#A52A2A; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 32px;}
+.STYLE402 {
+	color:green;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;}
+-->
+</style>
+<link href="../../js/style1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../js/jquery-latest.min.js"></script>
+<script type="text/javascript" src="../../js/script.js"></script>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body >
+<table width="850" border="0" align="center">
+  <tr>
+  <td width="200" align="left"><img src="../../tu/pianmu/bingjia1.png" width="175" height="60" name="top" border="0" /></td>
+  <td align="right"><a href="../../index.html" onMouseOver="MM_swapImage('Image0','','../../tu/fuzhu/back3.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../../tu/fuzhu/back2.png" alt="" name="Image0" width="50" height="50" border="0" id="Image0" /></a></td>
+  </tr>
+</table>
+<table width="850" border="0" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+  <td width="850" height="20" class="STYLE401"><span class="STYLE191">行走江湖自然少不了神兵利器，在山寨江湖里，除了原著里各式各样的兵刃甲胄，还增加诸多兵甲供玩家收集，最大程度的满足玩家的收集爱好</span><br />    装备武器需要满足一定条件，如果玩家发现无法给角色配备，请仔细查看装备条件<br />
+个别装备为专属武器，只有特定的角色才能获得和配备<br />
+合理利用装备和门派的加成，会让你在游戏里无往不利<br />
+<span class="STYLE202">装备中带※的特效加成，触发机率统一为30%</span>
+<hr /></td></tr>
+</table>
+  <div id="content">
+		<div class="abgne_tab">
+			<ul class="tabs">
+				<li><a href="#tab01">拳指</a></li>
+				<li><a href="#tab02">宝剑</a></li>
+				<li><a href="#tab03">名刀</a></li>
+				<li><a href="#tab04">奇门</a></li>
+				<li><a href="#tab05">暗器</a></li>
+				<li><a href="#tab06">防具</a></li>
+	            <li><a href="#tab07">坐骑</a></li>
+			</ul>
+			<div class="tab_container">
+			  <div id="tab01" class="tab_content">
+				  <table width="100%" border="1" cellspacing="4" bordercolor="#993300">
+                    <tr>
+                      <td width="105" height="35" align="center">装备名称</td>
+                 <td width="105" height="35" align="center">装备条件</td>
+                 <td width="90" height="35" align="center">属性加成</td>
+                 <td width="265" height="35" align="center">其他加成</td>
+                 <td width="197" height="35" align="center">获取方式</td>     
+                    </tr>
+          <tr>
+           <td align="center" class="STYLE220">铂丝拳套</td>
+           <td align="center" class="STYLE220">拳掌60</td>
+           <td align="center" class="STYLE220">攻+10<br />轻+20</td>
+           <td align="center" class="STYLE220">黯然销魂掌威力+100<br />
+美女拳法威力+200<br />
+※增加气攻300点</td>
+           <td align="center" class="STYLE220">古墓宝箱（开局搜刮）</td></tr>
+           <tr>
+           <td align="center" class="STYLE220">峨嵋刺</td>
+           <td align="center" class="STYLE220">拳掌60</td>
+           <td align="center" class="STYLE220">防+10<br />轻+10</td>
+           <td align="center" class="STYLE220">落英神剑掌威力+150<br />
+四象掌威力+150<br />
+逍遥游威力+200<br />
+绵掌威力+200<br />
+※根据自身剑系数值的1/10附加伤害</td>
+           <td align="center" class="STYLE220">有间客栈购买</td></tr>
+           <tr>
+   <td class="STYLE220" align="center">幻蝶扇</td>
+   <td class="STYLE220" align="center">拳掌80</td>
+   <td class="STYLE220" align="center">攻+30<br />
+     轻+10</td>
+   <td class="STYLE220" align="center">     美女拳法威力+150<br />
+※攻击额外附加中毒6点</td>
+   <td class="STYLE220" align="center">欧阳克加入/身上</td></tr>
+   <tr>
+   <td class="STYLE220" align="center">金蜈钩</td>
+   <td class="STYLE220" align="center">拳掌80<br  />用毒50</td>
+   <td class="STYLE220" align="center">攻+20<br />轻+20</td>
+   <td class="STYLE220" align="center">千蛛万毒手威力+100<br />五毒神掌威力+200<br />与拳系武功搭配必上毒<br />
+※强制中毒80点</td>
+   <td class="STYLE220" align="center">何铁手/何红药身上</td></tr>
+   <tr>
+   <td class="STYLE220" align="center">玄铁指环</td>
+   <td class="STYLE220" align="center">拳掌100<br />
+     内力1000</td>
+   <td class="STYLE220" align="center">攻+20<br />
+   防+30</td>
+   <td class="STYLE220" align="center">一阳指威力+100<br />幻阴指威力+100<br />参合指威力+100<br />与拳系武功搭配增加暴击率<br />
+※根据自身拳系数值的1/10附加伤害</td>
+   <td class="STYLE220" align="center">周芷若加入</td></tr>
+   <tr>
+   <td class="STYLE220" align="center">九字真言佛珠</td>
+   <td class="STYLE220" align="center">拳掌100</td>
+   <td class="STYLE220" align="center">攻+10<br />防+20</td>
+   <td class="STYLE220" align="center">罗汉拳威力+200<br />大金刚掌威力+150
+<br />须弥山神掌威力+100
+<br />简化除却四相发动条件<br />
+※根据自身道德值增加伤害</td>
+   <td class="STYLE220" align="center">木人巷宝箱</td></tr>
+   <tr>
+   <td class="STYLE220" align="center">逍遥神仙环</td>
+   <td class="STYLE220" align="center">拳掌120</td>
+   <td class="STYLE220" align="center">攻+20<br />防+20<br />轻+20</td>
+   <td class="STYLE220" align="center">天山折梅手威力+200<br />天山六阳掌威力+200<br />白虹掌力威力+200<br />
+   与拳系武功搭配增加封穴率<br />
+※以自身最大内力值的1/50附加伤害</td>
+   <td class="STYLE220" align="center">擂鼓山逍遥派剧情获得</td></tr><br />
+
+<table width="850" align="center">
+  <hr /><tr>
+  <td align="center" class="STYLE101">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+                  </table>
+				  </div>
+				<div id="tab02" class="tab_content">
+				  <table width="100%" border="1" cellspacing="4" bordercolor="#993300">
+                    <tr>
+                      <td width="105" height="35" align="center">装备名称</td>
+                 <td width="105" height="35" align="center">装备条件</td>
+                 <td width="90" height="35" align="center">属性加成</td>
+                 <td width="265" height="35" align="center">其他加成</td>
+                 <td width="197" height="35" align="center">获取方式</td>     
+                    </tr>
+          <tr>
+          <td align="center" class="STYLE220">白虹剑</td>
+          <td align="center" class="STYLE220">御剑40</td>
+          <td align="center" class="STYLE220">攻+20</td>
+          <td align="center" class="STYLE220">三分剑术威力+100<br />雪山剑法威力+200<br />额外集气速度加20</td>
+          <td align="center" class="STYLE220">铁匠处购买</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">白龙剑</td>
+          <td align="center" class="STYLE220">御剑60</td>
+          <td align="center" class="STYLE220">攻+30</td>
+          <td align="center" class="STYLE220">两仪剑法威力+100<br />连城剑法威力+200<br />额外集气速度加12</td>
+          <td align="center" class="STYLE220">铁匠处购买</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">凝碧剑</td>
+          <td align="center" class="STYLE220">御剑60</td>
+          <td align="center" class="STYLE220">攻+30</td>
+          <td align="center" class="STYLE220">攻速+1<br />绕指柔剑威力+100<br />柔云剑术威力+150<br />神门十三剑威力+200<br />额外集气速度加15</td>
+          <td align="center" class="STYLE220">张召重加入/身上</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">君子淑女剑</td>
+          <td align="center" class="STYLE220">御剑80</td>
+          <td align="center" class="STYLE220">攻+20<br />防+10<br />轻+10</td>
+          <td align="center" class="STYLE220">北斗罡剑威力+100<br />玉女素心剑威力+100<br />与剑法搭配增加连击率<br />※攻击必冰封灼烧</td>
+          <td align="center" class="STYLE220">神雕山洞杨过送</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">玉箫</td>
+          <td align="center" class="STYLE220">御剑80</td>
+          <td align="center" class="STYLE220">攻+20<br />轻+20</td>
+          <td align="center" class="STYLE220">玉箫剑法威力+150<br />碧海怒涛发动几率增加5%<br />※杀内500点</td>
+          <td align="center" class="STYLE220">程英加入</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">金蛇剑</td>
+          <td align="center" class="STYLE220">御剑80</td>
+          <td align="center" class="STYLE220">攻+20<br />轻+20</td>
+          <td align="center" class="STYLE220">金蛇剑法威力+150<br />追加杀气100点<br />※攻击附加20点中毒，5点内伤</td>
+          <td align="center" class="STYLE220">碧血剑剧情获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">真武剑</td>
+          <td align="center" class="STYLE220">御剑100<br />内力500</td>
+          <td align="center" class="STYLE220">攻+30<br />防+10<br />轻+10</td>
+          <td align="center" class="STYLE220">太极剑法威力+100<br />与太极剑法搭配必爆击<br />与其他剑法搭配增加连击率<br />※强制全屏杀气75点，攻击减内200</td>
+          <td align="center" class="STYLE220">黑木崖宝箱</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">紫薇软剑</td>
+          <td align="center" class="STYLE220">御剑100<br />内力1000</td>
+          <td align="center" class="STYLE220">攻+20<br />防+20<br />轻+10</td>
+          <td align="center" class="STYLE220">慕容剑法威力+100<br />斗转星移威力+100<br />辟邪剑法威力+100<br />※必破防，强制扣生命300</td>
+          <td align="center" class="STYLE220">闯王宝藏宝箱</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">青竹棒</td>
+          <td align="center" class="STYLE220">御剑120</td>
+          <td align="center" class="STYLE220">轻+20<br />御剑+80</td>
+          <td align="center" class="STYLE220">达摩剑法威力+100<br />泼墨披麻剑威力+150<br />越女剑法威力+200<br />※以自身最大内力值的1/40附加伤害</td>
+          <td align="center" class="STYLE220">阿青/阿九加入</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">神山剑</td>
+          <td align="center" class="STYLE220">御剑120</td>
+          <td align="center" class="STYLE220">攻+60</td>
+          <td align="center" class="STYLE220">神山剑法威力+300</td>
+          <td align="center" class="STYLE220">铁匠处购买</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">倚天剑</td>
+          <td align="center" class="STYLE220">御剑120<br />内力1500</td>
+          <td align="center" class="STYLE220">攻+50<br />防+10</td>
+          <td align="center" class="STYLE220">迅雷剑法威力+100<br />灭剑绝剑威力+150<br />与剑法搭配必流血<br />※攻击附带流血，当流血大等于80点时按100点计算</td>
+          <td align="center" class="STYLE220">倚天剧情获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">玄铁剑</td>
+          <td align="center" class="STYLE220">御剑120<br />内力2000</td>
+          <td align="center" class="STYLE220">攻+40<br />防+40<br />轻-20</td>
+          <td align="center" class="STYLE220">玄铁剑法威力+100<br />与玄铁剑法搭配必暴击<br />※必破防，每次攻击减敌方内力500，内伤10点</td>
+          <td align="center" class="STYLE220">1.神雕山洞拔剑<br />
+          2.神雕新线剧情获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">木剑</td>
+          <td align="center" class="STYLE220">御剑140<br />内力3000</td>
+          <td align="center" class="STYLE220">轻+20<br />御剑+100</td>
+          <td align="center" class="STYLE220">独孤九剑威力+100<br />松风剑法威力+500<br />※以自身最大内力值的1/30附加伤害</td>
+          <td align="center" class="STYLE220">1.杨过加入/身上<br />
+          2.神雕新线剧情获得</td></tr>
+                  </table><br />
+<table width="850" align="center">
+  <hr /><tr>
+  <td align="center" class="STYLE101">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+				</div>
+             <div id="tab03" class="tab_content">
+                	<table width="100%" border="1" cellspacing="4" bordercolor="#993300">
+                    <tr>
+                      <td width="105" height="35" align="center">装备名称</td>
+                 <td width="105" height="35" align="center">装备条件</td>
+                 <td width="90" height="35" align="center">属性加成</td>
+                 <td width="265" height="35" align="center">其他加成</td>
+                 <td width="197" height="35" align="center">获取方式</td>     
+                    </tr>
+         <tr>
+          <td align="center" class="STYLE220">金刀</td>
+          <td align="center" class="STYLE220">耍刀40</td>
+          <td align="center" class="STYLE220">攻+20</td>
+          <td align="center" class="STYLE220">五虎断门刀威力+200<br />※攻击减敌方内力100</td>
+          <td align="center" class="STYLE220">洛阳城胜王元霸后获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">银弧刀</td>
+          <td align="center" class="STYLE220">耍刀60</td>
+          <td align="center" class="STYLE220">轻＋30</td>
+          <td align="center" class="STYLE220">陆家刀法威力+200<br />※强制全屏杀气100点</td>
+          <td align="center" class="STYLE220">陆无双加入</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">血刀</td>
+          <td align="center" class="STYLE220">耍刀60</td>
+          <td align="center" class="STYLE220">攻+30</td>
+          <td align="center" class="STYLE220">血刀大法威力+150<br />用血刀大法攻击可以吸血<br />※攻击伤害的30%吸血</td>
+          <td align="center" class="STYLE220">连城邪线杀血刀老祖后获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">闯王宝刀</td>
+          <td align="center" class="STYLE220">耍刀60</td>
+          <td align="center" class="STYLE220">攻+10<br />防+10<br />轻+10</td>
+          <td align="center" class="STYLE220">金乌刀法威力+100<br />燃木刀法威力+100<br />与刀法搭配增加灼烧值<br />攻击必触发流血效果</td>
+          <td align="center" class="STYLE220">1.胡斐开闯王宝藏后获得<br />
+          2.胡一刀加入<br />
+          3.飞雪前代邪线胡斐送</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">绿波香露刀</td>
+          <td align="center" class="STYLE220">耍刀60</td>
+          <td align="center" class="STYLE220">攻+20<br />防+10</td>
+          <td align="center" class="STYLE220">修罗刀威力+150<br />飞沙走石刀威力+150<br />与刀法搭配必上毒<br />※每次攻击使目标30点中毒，减10点体力</td>
+          <td align="center" class="STYLE220">铁匠处购买</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">冷月宝刀</td>
+          <td align="center" class="STYLE220">耍刀80</td>
+          <td align="center" class="STYLE220">攻+20<br />轻+20</td>
+          <td align="center" class="STYLE220">胡家刀法威力+100<br />追加杀气120点<br />与刀法搭配增加冰封几率<br />※攻击附带冰封，冰封值&ge;20时按30点计算</td>
+          <td align="center" class="STYLE220">飞雪剧情获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">紫金八卦刀</td>
+          <td align="center" class="STYLE220">耍刀80</td>
+          <td align="center" class="STYLE220">攻+20<br />防+20</td>
+          <td align="center" class="STYLE220">八卦刀法威力+200<br />※根据自身刀系数值的1/10附加伤害</td>
+          <td align="center" class="STYLE220">蜘蛛山洞左边宝箱</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">鸳鸯宝刀</td>
+          <td align="center" class="STYLE220">耍刀100</td>
+          <td align="center" class="STYLE220">攻+20<br />防+20<br />轻+10</td>
+          <td align="center" class="STYLE220">夫妻刀法威力+150<br />鸳鸯刀法威力+300<br />与刀法搭配增加连击率<br />
+          ※使用鸳鸯宝刀攻击必连击，几率三连击</td>
+          <td align="center" class="STYLE220">1.鸳鸯刀萧袁线鸳鸯山洞<br />2.鸳鸯刀阿九线树林战卓天雄</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">霹雳狂刀</td>
+          <td align="center" class="STYLE220">耍刀100</td>
+          <td align="center" class="STYLE220">攻+10<br />防+30<br />轻+10</td>
+          <td align="center" class="STYLE220">霹雳刀法威力+100<br />与霹雳刀法搭配20%几率杀全体敌人集气200点</td>
+          <td align="center" class="STYLE220">领悟『霹雳刀法』后赠送</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">玄铁菜刀</td>
+          <td align="center" class="STYLE220">耍刀120</td>
+          <td align="center" class="STYLE220">攻+60</td>
+          <td align="center" class="STYLE220">西瓜刀法威力+300</td>
+          <td align="center" class="STYLE220">铁匠处购买</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">屠龙刀</td>
+          <td align="center" class="STYLE220">耍刀120<br />内力2000</td>
+          <td align="center" class="STYLE220">攻+50<br />防+30<br />轻-20</td>
+          <td align="center" class="STYLE220">火焰刀法威力+100<br />阴风刀威力+111<br />降魔刀法威力+150<br />与刀法搭配增加暴击率，暴击时几率增加气攻值<br />全屏强制减集气150点</td>
+          <td align="center" class="STYLE220">倚天剧情获得</td></tr>
+                  </table><br />
+<table width="850" align="center">
+  <hr /><tr>
+  <td align="center" class="STYLE101">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table></div>
+		<div id="tab04" class="tab_content">
+		<table width="100%" border="1" cellspacing="4" bordercolor="#993300">
+                    <tr>
+                      <td width="105" height="35" align="center">装备名称</td>
+                 <td width="105" height="35" align="center">装备条件</td>
+                 <td width="90" height="35" align="center">属性加成</td>
+                 <td width="265" height="35" align="center">其他加成</td>
+                 <td width="197" height="35" align="center">获取方式</td>     
+                    </tr>
+         <tr>
+          <td align="center" class="STYLE220">判官笔</td>
+          <td align="center" class="STYLE220">特殊40</td>
+          <td align="center" class="STYLE220">攻+20</td>
+          <td align="center" class="STYLE220">倚天屠龙功威力+100<br />一阳指书威力+100<br />裴将军帖威力+150<br />※攻击10点内伤、中毒</td>
+          <td align="center" class="STYLE220">铁匠处购买</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">鳄嘴剪</td>
+          <td align="center" class="STYLE220">特殊60</td>
+          <td align="center" class="STYLE220">攻+20<br />防+10</td>
+          <td align="center" class="STYLE220">大剪刀威力+200<br />※攻击减80点生命，附加8点内伤</td>
+          <td align="center" class="STYLE220">岳老三加入/身上</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">金龙鞭</td>
+          <td align="center" class="STYLE220">特殊60</td>
+          <td align="center" class="STYLE220">攻+30</td>
+          <td align="center" class="STYLE220">黄沙万里鞭威力+150<br />毒龙鞭法威力+300<br />
+          攻击必连击</td>
+          <td align="center" class="STYLE220">碧血剑常规线剧情获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">软红蛛索</td>
+          <td align="center" class="STYLE220">特殊60</td>
+          <td align="center" class="STYLE220">攻+10<br />轻+20</td>
+          <td align="center" class="STYLE220">软红蛛索术威力+150<br />※攻击使目标中毒75点，杀内600点</td>
+          <td align="center" class="STYLE220">何铁手加入/身上</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">金刀黑剑</td>
+          <td align="center" class="STYLE220">特殊80</td>
+          <td align="center" class="STYLE220">攻+20<br />防+20</td>
+          <td align="center" class="STYLE220">阴阳倒乱刃威力+200<br />与特系搭配增加连击率<br />※附加封穴、迟缓</td>
+          <td align="center" class="STYLE220">铁匠处购买</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">伏魔杵</td>
+          <td align="center" class="STYLE220">特殊80</td>
+          <td align="center" class="STYLE220">攻+30<br />防+20<br />轻-10</td>
+          <td align="center" class="STYLE220">无上大力杵威力+100<br />伏魔杖法威力+100<br />与特系搭配增加暴击率<br />简化除却四相触发条件<br />※攻击时触发10点基础封穴，后每次攻击附加8点封穴值</td>
+          <td align="center" class="STYLE220">铁匠处购买</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">四丈银鞭</td>
+          <td align="center" class="STYLE220">特殊80</td>
+          <td align="center" class="STYLE220">攻+10<br />防+20<br />轻+10</td>
+          <td align="center" class="STYLE220">金刚伏魔圈威力+100<br />※攻击四连击</td>
+          <td align="center" class="STYLE220">梅超风加入</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">金铃索带</td>
+          <td align="center" class="STYLE220">特殊80</td>
+          <td align="center" class="STYLE220">攻+20<br />轻+20</td>
+          <td align="center" class="STYLE220">银索金铃威力+150<br />额外增加集气35点</td>
+          <td align="center" class="STYLE220">小龙女加入/身上</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">银丝拂尘</td>
+          <td align="center" class="STYLE220">特殊80</td>
+          <td align="center" class="STYLE220">攻+10<br />防+10<br />轻+20</td>
+          <td align="center" class="STYLE220">云帚拂尘功威力+150<br />※攻击三连击</td>
+          <td align="center" class="STYLE220">李莫愁事件后获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">焦尾琴</td>
+          <td align="center" class="STYLE220">特殊80<br />内力2000</td>
+          <td align="center" class="STYLE220">攻+20<br />轻+20</td>
+          <td align="center" class="STYLE220">持瑶琴威力+200<br />攻击无误伤<br />
+攻击我方队友后回复生命100点、内伤8点</td>
+          <td align="center" class="STYLE220">1.笑傲洛阳剧情获得<br />2.黄钟公身上</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">西毒蛇杖</td>
+          <td align="center" class="STYLE220">特殊100</td>
+          <td align="center" class="STYLE220">攻+30<br />防+10<br />轻+10</td>
+          <td align="center" class="STYLE220">灵蛇杖法威力+100<br />与特系搭配必上毒<br />※攻击使目标中毒100点、内伤50点</td>
+          <td align="center" class="STYLE220">西毒北丐事件后获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">金轮</td>
+          <td align="center" class="STYLE220">特殊100</td>
+          <td align="center" class="STYLE220">攻+40<br />防+30<br />轻-20</td>
+          <td align="center" class="STYLE220">五轮大转威力+100<br />※强制全屏杀气120点</td>
+          <td align="center" class="STYLE220">金轮法王加入</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">打狗棒</td>
+          <td align="center" class="STYLE220">特殊120</td>
+          <td align="center" class="STYLE220">攻+30<br />轻+30</td>
+          <td align="center" class="STYLE220">打狗棒法威力+200<br />与打狗棒法搭配增加大招和封穴几率<br />30%几率封印目标</td>
+          <td align="center" class="STYLE220">霍都剧情获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">圣火令</td>
+          <td align="center" class="STYLE220">特殊120</td>
+          <td align="center" class="STYLE220">攻+10<br />轻+50</td>
+          <td align="center" class="STYLE220">圣火令秘诀威力+150<br />※根据自身轻功值的1/10附加伤害</td>
+          <td align="center" class="STYLE220">倚天剧情获得</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">龙胆亮银枪</td>
+          <td align="center" class="STYLE220">全系兵器值30</td>
+          <td align="center" class="STYLE220">攻+20<br />防+20<br />轻+20</td>
+          <td align="center" class="STYLE220">中平枪法威力+300<br />杨家枪法威力+600</td>
+          <td align="center" class="STYLE220">1. 七本书觉醒后河洛客栈小二处购买<br />
+（特主赵云限定）<br />2. 领悟杨家枪法后河洛客栈小二处购买</td></tr>
+        <tr>
+          <td align="center" class="STYLE220">犽月</td>
+          <td align="center" class="STYLE220">特殊120</td>
+          <td align="center" class="STYLE220">攻+60</td>
+          <td align="center" class="STYLE220">犽月流空威力+300</td>
+          <td align="center" class="STYLE220">铁匠处购买</td></tr>
+                  </table><br />
+<table width="850" align="center">
+  <hr /><tr>
+  <td align="center" class="STYLE101">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table></div>
+  <div id="tab05" class="tab_content">
+  <table width="100%" border="1" cellspacing="4" bordercolor="#993300"> 
+  <tr>
+                      <td width="105" height="35" align="center">装备名称</td>
+                 <td width="105" height="35" align="center">装备条件</td>
+                 <td width="90" height="35" align="center">属性加成</td>
+                 <td width="265" height="35" align="center">其他加成</td>
+                 <td width="197" height="35" align="center">获取方式</td>     
+                    </tr>
+   <tr>
+     <td align="center" class="STYLE220">银烟管</td>
+     <td align="center" class="STYLE220">暗器40</td>
+     <td align="center" class="STYLE220">攻+20</td>
+     <td align="center" class="STYLE220">带毒+20<br />三蜈五蟆烟威力+300<br />
+     ※攻击附加中毒50点</td>
+     <td align="center" class="STYLE220">程灵素加入</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">铁棋盘</td>
+     <td align="center" class="STYLE220">暗器40</td>
+     <td align="center" class="STYLE220">攻+10<br />防+10</td>
+     <td align="center" class="STYLE220">棋盘招式威力+100<br />※根据自身特系数值的1/10附加伤害</td>
+     <td align="center" class="STYLE220">黑白子身上</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">柔丝索</td>
+     <td align="center" class="STYLE220">暗器60</td>
+     <td align="center" class="STYLE220">防+10<br />轻+20</td>
+     <td align="center" class="STYLE220">带毒+30<br />三笑逍遥散威力+150<br />腐尸毒威力+200<br />※攻击附加中毒、内伤20点</td>
+     <td align="center" class="STYLE220">阿紫加入</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">刺针指环</td>
+     <td align="center" class="STYLE220">暗器60</td>
+     <td align="center" class="STYLE220">攻+20<br />防+10</td>
+     <td align="center" class="STYLE220">带毒+20<br />七绝针威力+100<br />透骨针威力+100<br />弹指神通威力+100<br />※根据自身暗系数值的1/10附加伤害</td>
+     <td align="center" class="STYLE220">河洛客栈购买</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">射雕弓</td>
+     <td align="center" class="STYLE220">暗器60</td>
+     <td align="center" class="STYLE220">攻+30</td>
+     <td align="center" class="STYLE220">白羽箭法威力+100<br />攻击必中，无视闪避</td>
+     <td align="center" class="STYLE220">郭靖2号加入/身上</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">阴阳扇</td>
+     <td align="center" class="STYLE220">暗器80</td>
+     <td align="center" class="STYLE220">攻+20<br />防+10<br />轻+10</td>
+     <td align="center" class="STYLE220">带毒+30点<br />毒龙锥威力+150<br />青字九打威力+150<br />※减少目标生命150点，增加中毒、内伤30点</td>
+     <td align="center" class="STYLE220">霍都加入/身上</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">含沙射影</td>
+     <td align="center" class="STYLE220">暗器80</td>
+     <td align="center" class="STYLE220">攻+40</td>
+     <td align="center" class="STYLE220">带毒+30点<br />蚊须针威力+100<br />黑血神针威力+100<br />玉蜂针威力+100<br />冰魄银针威力+100<br />毒蟾砂威力+300<br />※减少目标生命200点，增加中毒100点</td>
+     <td align="center" class="STYLE220">韦小宝加入</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">火枪</td>
+     <td align="center" class="STYLE220">暗器100</td>
+     <td align="center" class="STYLE220">攻+50</td>
+     <td align="center" class="STYLE220">火枪连射威力+250<br />攻击时对方不可内力护体<br />35%几率强制扣目标生命600点</td>
+     <td align="center" class="STYLE220">韦小宝加入</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">七星海棠</td>
+     <td align="center" class="STYLE220">暗器100<br />内力1000</td>
+     <td align="center" class="STYLE220">攻+25<br />防+25</td>
+     <td align="center" class="STYLE220">生死符威力+100<br />※攻击附加中毒100点、杀内300点</td>
+     <td align="center" class="STYLE220">程灵素加入</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">绣花针</td>
+     <td align="center" class="STYLE220">暗器120<br />内力3000</td>
+     <td align="center" class="STYLE220">攻-10<br />轻+70</td>
+     <td align="center" class="STYLE220">葵花神针威力+100<br />额外增加集气30点</td>
+     <td align="center" class="STYLE220">东方不败身上</td></tr></table><br />
+<table width="850" align="center">
+  <hr /><tr>
+  <td align="center" class="STYLE101">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table></div>
+     <div id="tab06" class="tab_content">
+  <table width="100%" border="1" cellspacing="4" bordercolor="#993300"> 
+  <tr>
+                      <td width="105" height="35" align="center">装备名称</td>
+                 <td width="105" height="35" align="center">装备条件</td>
+                 <td width="365" height="35" align="center">属性加成</td>
+                 <td width="195" height="35" align="center">获取方式</td>     
+                    </tr>
+   <tr>
+    <td align="center" class="STYLE220">软蝟甲</td>
+    <td align="center" class="STYLE220">攻+10<br />防+50</td>
+    <td align="center" class="STYLE220">反弹部分拳系攻击伤害，降低其他系伤害<br />时序降低迟缓值10点</td>
+    <td align="center" class="STYLE220">黄蓉加入/身上</td></tr>
+   <tr>
+    <td align="center" class="STYLE220">乌蚕衣</td>
+    <td align="center" class="STYLE220">防+50</td>
+    <td align="center" class="STYLE220">减轻受到的内伤值<br />
+时序减少内伤值10点</td>
+    <td align="center" class="STYLE220">连城诀剧情获得</td></tr>
+   <tr>
+     <td align="center" class="STYLE220">金丝背心</td>
+     <td align="center" class="STYLE220">攻+20<br />防+30</td>
+     <td align="center" class="STYLE220">减轻受到的封穴值<br />
+时序减少封穴值10点</td>
+     <td align="center" class="STYLE220">闯王宝藏宝箱</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">鳄皮护甲</td>
+     <td align="center" class="STYLE220">防+40</td>
+     <td align="center" class="STYLE220">减轻受到的中毒值<br />时序减少中毒值10点</td>
+          <td align="center" class="STYLE220">岳老三加入/身上</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">佛心甲</td>
+     <td align="center" class="STYLE220">防+30<br />轻+10</td>
+     <td align="center" class="STYLE220">减轻受到的流血值<br />
+时序减少流血值10点</td>
+     <td align="center" class="STYLE220">铁匠处购买</td></tr>
+    <tr>
+     <td align="center" class="STYLE220">皮衣</td>
+     <td align="center" class="STYLE220">攻+10<br />轻+10</td>
+     <td align="center" class="STYLE220">减轻受到的迟缓、冰封、灼烧值<br />
+时序减少冰封、灼烧值10点</td>
+     <td align="center" class="STYLE220">龙门客栈购买</td></tr></table><br />
+<table width="850" align="center">
+  <hr /><tr>
+  <td align="center" class="STYLE101">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table></div>
+	<div id="tab07" class="tab_content">
+		<table width="100%" border="1" cellspacing="4" bordercolor="#993300"> 
+  <tr>
+                      <td width="105" height="35" align="center">装备名称</td>
+                 <td width="105" height="35" align="center">装备条件</td>
+                 <td width="365" height="35" align="center">属性加成</td>
+                 <td width="195" height="35" align="center">获取方式</td>     
+                    </tr>
+   <tr>
+    <td align="center" class="STYLE220">白马</td>
+    <td align="center" class="STYLE220">轻+20</td>
+    <td align="center" class="STYLE220">增加集气速度30点</td>
+    <td align="center" class="STYLE220">白马啸西风破庙剧情获得</td></tr>
+   <tr>
+    <td align="center" class="STYLE220">白雕</td>
+    <td align="center" class="STYLE220">攻+10<br />
+轻+10</td>
+    <td align="center" class="STYLE220">增加集气速度20点</td>
+    <td align="center" class="STYLE220">蒙古包郭靖1号加入</td></tr>
+  </table><br />
+<table width="850" align="center">
+  <hr /><tr>
+  <td align="center" class="STYLE101">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+								</div>
+			</div>
+		</div>           		
+</div>   
+ <div id="left">
+    <table width="95" border="1" cellspacing="0" bordercolor="#cccccc" frame="box">
+     <tr>
+      <td height="35" align="center" valign="middle"><a onmouseover="MM_swapImage('Image1','','../../tu/fuzhu/float-01.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tianshu/tianshu.html"><IMG id=Image1 border=0 name=Image1 alt="" src="../../tu/fuzhu/float01.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image2','','../../tu/fuzhu/float-02.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhixian/zhixian.html"><IMG id=Image2 border=0 name=Image2 alt="" src="../../tu/fuzhu/float02.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image3','','../../tu/fuzhu/float-03.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/menpai/menpai.html"><IMG id=Image3 border=0 name=Image3 alt="" src="../../tu/fuzhu/float03.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image4','','../../tu/fuzhu/float-04.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/ren/ren.html"><IMG id=Image4 border=0 name=Image4 alt="" src="../../tu/fuzhu/float04.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image5','','../../tu/fuzhu/float-05.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/gongfa/gongfa.html"><IMG id=Image5 border=0 name=Image5 alt="" src="../../tu/fuzhu/float05.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image6','','../../tu/fuzhu/float-06.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yaowu/yaowu.html"><IMG id=Image6 border=0 name=Image6 alt="" src="../../tu/fuzhu/float06.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image7','','../../tu/fuzhu/float-07.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yinxin/yinxin.html"><IMG id=Image7 border=0 name=Image7 alt="" src="../../tu/fuzhu/float07.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image8','','../../tu/fuzhu/float-08.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/bingjia/bingjia.html"><IMG id=Image8 border=0 name=Image8 alt="" src="../../tu/fuzhu/float08.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image9','','../../tu/fuzhu/float-09.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/renwu/renwu.html"><IMG id=Image9 border=0 name=Image9 alt="" src="../../tu/fuzhu/float09.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image10','','../../tu/fuzhu/float-10.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tiaozhan/tiaozhan.html"><IMG id=Image10 border=0 name=Image10 alt="" src="../../tu/fuzhu/float10.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image11','','../../tu/fuzhu/float-11.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/jichu/jichu.html"><IMG id=Image11 border=0 name=Image11 alt="" src="../../tu/fuzhu/float11.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image12','','../../tu/fuzhu/float-12.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhuangtai/zhuangtai.html"><IMG id=Image12 border=0 name=Image12 alt="" src="../../tu/fuzhu/float12.png" width=90 height=35 /></a></td></tr>
+  </table></div>
+<div id="right"><a onmouseover="MM_swapImage('Image13','','../../tu/fuzhu/top01-1.png',1)" onmouseout=MM_swapImgRestore() href="#top"><IMG id=Image13 border=0 name=Image13 alt="" src="../../tu/fuzhu/top01.png" width=90 height=35 /></a></div>
+</body>
+</html>

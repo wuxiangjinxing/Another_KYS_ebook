@@ -1,0 +1,437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+@import url("../../js/new.css");
+#left{
+    position: fixed;
+    top: 130px;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+    border: 0px solid #000;
+	left: 150px;
+}
+#right{
+    position: fixed;
+    top: 680px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 0px solid #000;
+	right: 160px;
+}
+.STYLE1 {
+	color:#F00;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE101 {
+	color:#F00;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE2 {
+	color: #333399;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE201 {
+	color: #F63;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE202 {
+	color: #F00;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE3 {
+	color:#000;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{cursor:url(../../1/7.cur);}
+html{
+	overflow-x:hidden; 
+    overflow-y:auto; 
+}
+body{
+	cursor:url(../../1/5.cur);
+	overflow-y:hidden;
+	background-image:url(../../tu/body_bg.jpg);
+}
+.STYLE4 {
+	color: #000;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE401 {
+	color: #060;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE6 {
+	color:#06f;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE601 {
+	color:#06f;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE10 {
+	color: #930;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE17 {
+	color:#0C0;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE19 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE191 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE21 {
+	color:#309;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE22 {
+	color:#B8860B;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE220 {
+	color:#B8860B;
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE221 {
+	color:#F63;
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE23 {
+	color:#F63;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE24 {color: #006633; font-size: 16px; font-family: Arial, Helvetica, sans-serif; }
+.STYLE25 {color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight:normal}
+.STYLE26 {color:#00688b; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE261 {
+	color: #00688b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+}
+.STYLE27 {color:#666; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE28 {color:#8B0000; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+.STYLE29 {color:#FF8247; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE30 {color:#A52A2A; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 32px;}
+.STYLE402 {
+	color:green;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;}
+-->
+</style>
+<link href="../../js/style1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../js/jquery-latest.min.js"></script>
+<script type="text/javascript" src="../../js/script.js"></script>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('../../tu/fuzhu/back3.png')">
+<table width="850" border="0" align="center">
+  <tr>
+  <td width="200" align="left"><img src="../../tu/pianmu/bingjia1.png" width="175" height="60" name="top" border="0" /></td>
+  <td align="right"><a href="../../index.html" onMouseOver="MM_swapImage('Image0','','../../tu/fuzhu/back3.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../../tu/fuzhu/back2.png" alt="" name="Image0" width="50" height="50" border="0" id="Image0" /></a></td>
+  </tr>
+</table>
+<table width="850" border="0" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+  <td width="850" height="20" class="STYLE401"><span class="STYLE191">行走江湖自然少不了神兵利器，在山寨江湖里，除了原著里各式各样的兵刃甲胄，还增加诸多兵甲供玩家收集，最大程度的满足玩家的收集爱好</span><br />    装备武器需要满足一定条件，如果玩家发现无法给角色配备，请仔细查看装备条件<br />
+个别装备为专属武器，只有特定的角色才能获得和配备<br />
+合理利用装备和门派的加成，会让你在游戏里无往不利<hr /></td></tr>
+</table>
+  <div id="content">
+		<div class="abgne_tab">
+			<ul class="tabs">
+				<li><a href="#tab01">拳指</a></li>
+				<li><a href="#tab02">名剑</a></li>
+				<li><a href="#tab03">刀</a></li>
+				<li><a href="#tab04">奇门</a></li>
+				<li><a href="#tab05">暗器</a></li>
+				<li><a href="#tab06">防具</a></li>
+	            <li><a href="#tab07">坐骑</a></li>  
+				                                      
+			</ul>
+			<div class="tab_container">
+			  <div id="tab01" class="tab_content">
+				  <table width="100%" border="1" cellpadding="0">
+                    <tr>
+                      <td width="105" height="35" align="center">装备名称</td>
+                 <td width="115" height="35" align="center">装备条件</td>
+                 <td width="85" height="35" align="center">属性加成</td>
+                 <td width="240" height="35" align="center">其他加成</td>
+                 <td height="35" align="center">获取方式</td>     
+                    </tr>
+                    
+                    </tr>
+                  </table>
+				  <br />
+				  <table width="100%" border="0">
+                    <tr>
+                      <td height="30" colspan="2" align="left"><span class="STYLE113">〖<span class="STYLE6">防御特效</span>〗 </span><span class="STYLE6">被攻击时可触发的效果</span> </td>
+                    </tr>
+                    <tr>
+                      <td width="72" height="25" align="center" class="STYLE118"><span class="STYLE120">橙字特效</span></td>
+                      <td align="left" class="STYLE124">&nbsp;兵器值优劣势显示、破绽显示、金刚不坏特效</td>
+                    </tr>
+                    <tr>
+                      <td height="25" align="center" class="STYLE106">红字特效</td>
+                      <td align="left" class="STYLE119">&nbsp;一些特殊的特效，如易筋真谛、真.太极奥义、九阴真气、神照功复活</td>
+                    </tr>
+                    <tr>
+                      <td height="25" align="center" class="STYLE123">黄字特效</td>
+                      <td align="left" class="STYLE6">&nbsp;内功护体、北冥真气、太极奥义、斗转星移、轻功减伤、MISS特效等</td>
+                    </tr>
+                    <tr>
+                      <td height="25" align="center" class="STYLE110">白字特效</td>
+                      <td align="left" class="STYLE114">&nbsp;天赋内功护体、乾坤、八六减伤特效</td>
+                    </tr>
+                  </table>
+				  <br />
+			    <span class="STYLE125">关于特效的叠加，不同层次的特效基本都可以叠加，同一层的特效不能同时触发的无法叠加，如不同的内功加力护体之类</span>,<span class="STYLE125">有优先覆盖关系的不能叠加，如三大吸功北冥优先级最高，同时触发会覆盖吸星和化功的效果</span></div>
+				<div id="tab02" class="tab_content">
+				  <table width="100%" border="0">
+                    <tr>
+                      <td height="25" class="STYLE114">连续攻击，本次攻击追加一次攻击</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105"><span class="STYLE6">&nbsp;&nbsp;&nbsp;◎连击所造成的伤害与气攻约为正常情况下的70%</span></td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎连击率与人物自身连击率和武功本身连击率有关,<span class="STYLE126">人物自身的连击率与实战和轻功有关，实战、轻功越高几率越高</span></td>
+                    </tr>
+                    
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎提升连击率的武功可以提升人物自身基础连击率，但必须保留在面板才有效果（洗掉无效）</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎六如特效-<strong>动如雷震</strong>可以额外连击一次，可以连续触发</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎六如特效-<strong>难知如阴</strong>可以打断任意连击效果</td>
+                    </tr>
+                  </table>
+				</div>
+                				<div id="tab03" class="tab_content">
+                				  <table width="100%" border="0">
+                                    <tr>
+                                      <td height="25" class="STYLE119"><span class="STYLE114">本次攻击造成伤害提升</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE119"><span class="STYLE105">&nbsp;&nbsp;&nbsp;◎暴击率与人物自身暴击率与武功本身暴击率有关,<span class="STYLE126">人物自身的暴击率与实战及攻击有关，实战、攻击越高几率越高</span></span></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE119">&nbsp;&nbsp;&nbsp;◎暴击可以使整体攻击加成提高至150%</td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎提升暴击率的武功可以提升人物自身基础暴击率，但保留在面板才有效果（洗掉无效）</td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎<strong>逆运经脉</strong>运功暴击攻击加成可以提高至170%</td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎暴怒时的<strong>会心一击</strong>附带暴击效果</td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎<strong>森罗万象</strong>可以免疫暴击所造成的额外伤害（即暴击只造成普通攻击的伤害），免疫敌方暴击的额外伤害，以及会心一击的额外气攻（需同时修炼九阴九阳神功）</td>
+                                    </tr>
+                                  </table>
+                				</div>                    
+				<div id="tab04" class="tab_content">
+				  <table width="100%" border="0">
+                    <tr>
+                      <td height="25" class="STYLE105"><span class="STYLE114">怒气值爆满时，攻击发动会心一击</span></td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎<strong>怒气爆发</strong>时，集气速度*300%，回封穴速度加倍，攻击必定触发会心一击</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎会心一击附带暴击效果</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE126">&nbsp;&nbsp;&nbsp;◎会心一击额外追加气攻（具体数值大概与武功威力相关）</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE126"><span class="STYLE105">&nbsp;&nbsp;&nbsp;◎会心一击时，武功招式发动几率提高到100%</span></td>
+                    </tr>
+                  </table>
+				</div>
+                				<div id="tab05" class="tab_content">
+                				  <table width="100%" border="0">
+                                    <tr>
+                                      <td height="25" class="STYLE105"><span class="STYLE114">与队友合击提升攻击范围</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎合击不会<span class="STYLE119">有误伤</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎在合击范围内，合击对象需有同样的武功</td>
+                                    </tr>
+                                  </table>
+                				</div>
+				<div id="tab06" class="tab_content">
+				  <table width="100%" border="0">
+                    <tr>
+                      <td height="25" class="STYLE114">武功招式</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE6">&nbsp;&nbsp;&nbsp;◎攻击时触发武功招式，才能使武功附带气攻值杀气</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎招式几率一般为60%，部分武功招式几率有特别设定，如六脉一般为30%几率，降龙招式也与普通招式不同</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎<strong>小无相功加力</strong>时必出招式（降龙、六脉无效），会心一击时招式几率100%（降龙、六脉无效）</td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎一般情况下使用内功攻击是没有招式的，但是一些特定的人物可以触发特定的招式，<span class="STYLE6">如狄云的神照功、<br />
+                        石破天的太玄神功以及天罡主角可以触发天罡真气来补充气攻</span></td>
+                    </tr>
+                    <tr>
+                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎也有一部分外功时没有招式的，比如持瑶琴、罗汉拳</td>
+                    </tr>
+                  </table>
+				</div>
+								<div id="tab07" class="tab_content">
+								  <blockquote>&nbsp;</blockquote>
+								  <table width="100%" border="0">
+                                    <tr>
+                                      <td height="25" class="STYLE105"><span class="STYLE114">内功的加力与护体</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎攻击时触发<strong>内功加力</strong>，则追加一定的气攻值（一般情况下与内功威力的数值相同）并略微提升伤害</td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎被攻击时触发<strong>内功护体</strong>，则追加一定的气防值（一般情况下与内功威力的数值相同）并略微降低所受伤害</td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎不同的内功加力、护体不能同时触发，高等级内功会优先覆盖低等级内功</td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎若是同等级内功则按修炼的先后顺序优先判定触发</td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎当前运行的内功有35%的<a href="javascript:;">【优先判定】</a>几率触发加力，判定失败后再按正常方式判定<a href="javascript:;">【二次判定】</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE105">&nbsp;&nbsp;&nbsp;◎一些特效必须触发对应的加力或者护体才能触发<span class="STYLE6">（如龙象之力必须龙象加力，罗汉伏魔必须罗汉加力）</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="STYLE6">&nbsp;&nbsp;&nbsp;◎加力护体几率与人物资质及实战高低有关，资质越低几率越高、实战越高几率越高</td>
+                                    </tr>
+                                  </table>
+								</div>
+								
+			</div>
+		</div>           		
+</div>                  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+ 
+ <p>&nbsp;</p>
+ <p>&nbsp;</p>
+ <div id="left">
+    <table width="95" border="1" cellspacing="0" bordercolor="#cccccc" frame="box">
+     <tr>
+      <td height="35" align="center" valign="middle"><a onmouseover="MM_swapImage('Image1','','../../tu/fuzhu/float-01.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tianshu/tianshu.html"><IMG id=Image1 border=0 name=Image1 alt="" src="../../tu/fuzhu/float01.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image2','','../../tu/fuzhu/float-02.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhixian/zhixian.html"><IMG id=Image2 border=0 name=Image2 alt="" src="../../tu/fuzhu/float02.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image3','','../../tu/fuzhu/float-03.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/menpai/menpai.html"><IMG id=Image3 border=0 name=Image3 alt="" src="../../tu/fuzhu/float03.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image4','','../../tu/fuzhu/float-04.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/ren/ren.html"><IMG id=Image4 border=0 name=Image4 alt="" src="../../tu/fuzhu/float04.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image5','','../../tu/fuzhu/float-05.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/gongfa/gongfa.html"><IMG id=Image5 border=0 name=Image5 alt="" src="../../tu/fuzhu/float05.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image6','','../../tu/fuzhu/float-06.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yaowu/yaowu.html"><IMG id=Image6 border=0 name=Image6 alt="" src="../../tu/fuzhu/float06.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image7','','../../tu/fuzhu/float-07.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yinxin/yinxin.html"><IMG id=Image7 border=0 name=Image7 alt="" src="../../tu/fuzhu/float07.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image8','','../../tu/fuzhu/float-08.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/bingjia/bingjia.html"><IMG id=Image8 border=0 name=Image8 alt="" src="../../tu/fuzhu/float08.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image9','','../../tu/fuzhu/float-09.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/renwu/renwu.html"><IMG id=Image9 border=0 name=Image9 alt="" src="../../tu/fuzhu/float09.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image10','','../../tu/fuzhu/float-10.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tiaozhan/tiaozhan.html"><IMG id=Image10 border=0 name=Image10 alt="" src="../../tu/fuzhu/float10.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image11','','../../tu/fuzhu/float-11.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/jichu/jichu.html"><IMG id=Image11 border=0 name=Image11 alt="" src="../../tu/fuzhu/float11.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image12','','../../tu/fuzhu/float-12.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhuangtai/zhuangtai.html"><IMG id=Image12 border=0 name=Image12 alt="" src="../../tu/fuzhu/float12.png" width=90 height=35 /></a></td></tr>
+  </table></div>
+<div id="right"><a onmouseover="MM_swapImage('Image13','','../../tu/fuzhu/top01-1.png',1)" onmouseout=MM_swapImgRestore() href="#top"><IMG id=Image13 border=0 name=Image13 alt="" src="../../tu/fuzhu/top01.png" width=90 height=35 /></a></div>
+<hr />
+<table width="850" align="center">
+ <tr>
+  <td align="center" class="STYLE101">山寨江湖四叶版讨论群：18439140&nbsp;&nbsp;&nbsp;<span class="STYLE402">本攻略如有错漏之处，敬请指正</span></td></tr></table>
+</body>
+</html>

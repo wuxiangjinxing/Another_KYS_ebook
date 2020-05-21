@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 transitional//EN" "http://www.w3.org/tr/xhtml1/Dtd/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+@import url("../../js/new.css");
+#left{
+    position: fixed;
+    top: 130px;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+    border: 0px solid #000;
+	left: 150px;
+}
+#right{
+    position: fixed;
+    top: 680px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 0px solid #000;
+	right: 160px;
+}
+.STYLE1 {
+	color: #F00;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE101 {
+	color: #F00;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE2 {
+	color: #000;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE201 {
+	color: #000;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE202 {
+	color: #000;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE3 {
+	color:#000;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{cursor:url(../../1/7.cur);}
+html{
+	overflow-x:hidden; 
+    overflow-y:auto; 
+}
+body{
+	cursor:url(../../1/5.cur);
+	overflow-y:hidden;
+	background-image:url(../../tu/body_bg.jpg);
+}
+.STYLE4 {
+	color: #060;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE401 {
+	color: #060;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE402 {
+	color: #060;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE6 {
+	color:#06f;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE601 {
+	color: #06f;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE602 {
+	color: #06f;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE10 {
+	color:#930;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE10a {
+	color: #930;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE17 {
+	color:#0C0;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE171 {
+	color: #0C0;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE19 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE191 {
+	font-size: 14px;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE21 {
+	color:#309;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE22 {
+	color: #B8860B;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE221 {
+	color: #EE9A49;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE23 {
+	color:#F63;
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE24 {color: #006633; font-size: 16px; font-family: Arial, Helvetica, sans-serif; }
+.STYLE25 {color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE26 {
+	color: #00688b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.STYLE261 {
+	color: #00688b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.STYLE27 {color:#666; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE271 {
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+.STYLE30 {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+.STYLE31 {
+	color: #EE3A8C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.STYLE35 {
+	color: #4B0082;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#Layer1 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 2690px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer2 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 2990px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer3 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3120px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer4 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3180px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer5 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3240px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer6 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3300px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer7 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3360px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer8 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3420px;
+	background-image:url(../../tu/bg1.png);
+}
+-->
+</style>
+<script type="text/javascript" src="/iframe.js"></script>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function ddd(obj, sType) { 
+var oDiv = document.getElementById(obj); 
+if (sType == 'show') { oDiv.style.display = 'block';} 
+if (sType == 'hide') { oDiv.style.display = 'none';} 
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('../../tu/fuzhu/back3.png')">
+<table width="850" border="0" align="center">
+  <tr>
+  <td width="200" align="center" class="STYLE30" bgcolor="#000000" id="1">论武觉醒</td>
+  <td align="right"><a href="zhixian.html" onMouseOver="MM_swapImage('Image0','','../../tu/fuzhu/back3.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../../tu/fuzhu/back2.png" alt="" name="Image0" width="50" height="50" border="0" id="Image0" /></a></td>
+  </tr>
+</table>
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="125" height="30" align="center" class="STYLE201">地点<br />（传送代码）</td>
+   <td align="center" class="STYLE201">事件</td>
+  </tr>
+  <tr>
+   <td height="35" align="center" class="STYLE401">华山后山<br />
+    （80）</td>
+   <td class="STYLE2"><p>七本天书后<span class="STYLE601"></span>，对话后山软体娃娃觉醒（可跳过战斗影像）</p>
+     <p>第二格武功洗<span class="STYLE101"><strong>【六如苍龙诀】</strong></span>：</p>
+     <p class="STYLE6"><strong>〖其疾如风〗</strong>下回合集气位置+500，队友集气位置+100</p>
+     <p class="STYLE17"><strong>〖其徐如林〗</strong>被攻击时几率发动，集气速度提高2~3点，上限20点</p>
+     <p class="STYLE101"><strong>〖侵略如火〗</strong>攻击时几率发动，伤害提高20%，追加3000点气攻</p>
+     <p class="STYLE10"><strong>〖不动如山〗</strong>攻击时几率触发，受到伤害固定为30点（可与软猬甲叠加，只受到10点伤害），免疫杀气、内伤、封穴、流血等状态</p>
+     <p class="STYLE27"><strong>〖难知如阴〗</strong>被攻击时强制打断对方连击，并获得一次移动机会</p>
+     <p class="STYLE19"><strong>〖动如雷震〗</strong>追加一次连击</p>
+     <p class="STYLE171">*特殊主角四本天书开始第一次觉醒<br />
+     *软体娃娃左边白色石头处可选择融合功体，自创内功（含领悟及功体组合，请务必学会两种以上内功）</p></td>
+  </tr>
+  <tr>
+    <td width="125" height="35" align="center" class="STYLE401">武当派<br />
+      （43）</td>
+    <td width="715" class="STYLE2"><p>觉醒后对话张三丰，可以选择挑战张三丰</p>
+      <p>胜利后主角第二格武功洗<span class="STYLE101"><strong>【六如隼龙诀】</strong></span>，学会<span class="STYLE101"><strong>『风天流&middot;隼旋击』</strong></span>：</p>
+      <p><span class="STYLE101"><strong>〖隼旋初式&middot;念奴娇〗</strong></span>三连击时80%几率发动，伤害效果提升至115%，增加750气攻值 </p>
+      <p><span class="STYLE101"><strong>〖隼旋次式&middot;破阵子〗</strong></span>四连击时50%几率发动，伤害效果提升至130%，增加1500气攻值 </p>
+      <p><span class="STYLE101"><strong>〖隼旋终式&middot;满江红〗</strong></span>五连击时30%几率发动，伤害效果提升至150%，增加3000气攻值 </p></td>
+  </tr>
+</table>
+<br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="125" height="30" align="center" class="STYLE201">地点<br />（传送代码）</td>
+   <td width="499" align="center" class="STYLE201">事件</td>
+   <td width="212" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="35" align="center" class="STYLE401">华山后山<br />
+    （80）</td>
+   <td class="STYLE2"><p>觉醒后有东瀛武士前来抢夺天书（被随机抢走一本天书）</p>
+    <p class="STYLE171">*特殊主角谢云流不会触发此事件</p></td>
+  <td valign="middle" class="STYLE171">&nbsp;</td></tr>
+  <tr>
+   <td height="35" align="center" class="STYLE401">刀宗<br />
+    （113）</td>
+   <td class="STYLE2"><p>对话谢无悠，剧情以后森九岚入队</p>
+    <p class="STYLE171">*开启追杀模式，此后在行走时会触发东瀛武士追杀</p></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/head/372.png" width="50" height="50" /></td>
+     <td class="STYLE22"><span class="STYLE221">森九岚</span>[队友]<br /></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/341.png" width="50" height="50" /></td>
+     <td class="STYLE22"><span class="STYLE1">太虚剑意</span>[内功秘籍]<br /></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/268.png" width="50" height="50" /></td>
+     <td class="STYLE22"><span class="STYLE1">斩流剑术</span>[剑法秘籍]<br /></td></tr></table></td></tr>
+  <tr>
+   <td height="35" align="center" class="STYLE401">华山后山<br />
+    （80）</td>
+   <td class="STYLE2"><p>击退四次追杀后，来到后山触发剧情</p>
+    <p><span class="STYLE171">*主角御剑系数&ge;350无领悟，则可以选择领悟<span class="STYLE1">【独孤真传】</span>，第三格武功洗<strong><span class="STYLE1">玄铁剑法 一</span></strong>，第四格武功洗<strong><span class="STYLE1">独孤九剑 一</span></strong><br />
+*御剑系数350以上不领悟也会洗武功</span></p></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/物品/114.png" width="50" height="50" /></td>
+       <td class="STYLE22"><span class="STYLE1">独孤九剑</span>[剑法秘籍]<br /></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/116.png" width="50" height="50" /></td>
+  <td class="STYLE22"><span class="STYLE1">玄铁剑法</span>[剑法秘籍]<br /></td></tr></table></td></tr>
+  <tr>
+   <td height="35" align="center" class="STYLE401">刀宗<br />
+    （113）</td>
+   <td class="STYLE2"><p>对话谢无悠，得知东瀛武士藏在树林之中</p></td>
+  <td valign="middle" class="STYLE171">&nbsp;</td></tr>
+  <tr>
+   <td height="35" align="center" class="STYLE401">树林<br />
+    （109）</td>
+   <td class="STYLE2"><p>树林小道左上角隐密处空格键对话，发现隐藏的东瀛武士，战胜后夺回天书，事件结束，追杀停止</p></td>
+  <td class="STYLE171" align="center">夺回被抢走的天书</td></tr></table><br />
+
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+    <td width="125" height="30" align="center" class="STYLE201">地点<br />
+      （传送代码）</td>
+    <td width="499" align="center" class="STYLE201">事件</td>
+    <td width="212" align="center" class="STYLE201">奖励</td>
+  </tr>
+  <tr>
+    <td height="35" align="center" class="STYLE401">华山后山<br />
+      （80）</td>
+    <td class="STYLE2"><p>觉醒后，收集到12本天书可以对话软体娃娃选择进行华山论剑，战斗中，每回合四神敌我关系随机</p></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td class="STYLE23" align="center"><span class="STYLE221">获胜后武常+50</span></td></tr></table></td>
+  </tr>
+</table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+    <td width="125" height="30" align="center" class="STYLE201">地点<br />
+      （传送代码）</td>
+    <td width="499" align="center" class="STYLE201">事件</td>
+    <td width="212" align="center" class="STYLE201">奖励</td>
+  </tr>
+  <tr>
+    <td height="35" align="center" class="STYLE401">小村<br />
+    （70）</td>
+    <td class="STYLE2"><p>集齐14本天书以后，对话南贤，获得参加武道大会的资格<br />
+    打开宝箱可以选择将第一格武功洗为四神技之一</p>
+    <p class="STYLE171">*标主天罡建议选择放弃洗武功，否则可能无法出大招<br />
+    *铁匠处可购买终极武器：<span class="STYLE10a">神山剑</span>、<span class="STYLE10a">玄铁菜刀</span>、<span class="STYLE10a">犽月</span></p></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/fuzhu/quan-1.png" width="50" height="50" /></td>
+     <td class="STYLE101">【野球拳】</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/fuzhu/jian-1.png" width="50" height="50" /></td>
+     <td class="STYLE101">【神山剑法】</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/fuzhu/dao-1.png" width="50" height="50" /></td>
+     <td class="STYLE101">【西瓜刀法】</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/fuzhu/te-1.png" width="50" height="50" /></td>
+     <td class="STYLE101">【犽月流空】</td></tr></table></td>
+  </tr>
+</table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+    <td width="125" height="30" align="center" class="STYLE201">地点<br />
+      （传送代码）</td>
+    <td width="499" align="center" class="STYLE201">事件</td>
+    <td width="212" align="center" class="STYLE201">奖励</td>
+  </tr>
+  <tr>
+    <td height="35" align="center" class="STYLE401">武道大会<br />
+      （25）</td>
+    <td class="STYLE2"><p>可选择上台挑战，或与台下软体娃娃对话直接挑战20大高手</p>
+    <p><span class="STYLE17">道德值&gt;50</span>，挑战20邪<br />
+      <span class="STYLE101">道德值&le;50</span>，挑战20正</p>
+    <p>打赢之后放好天书，得到<span class="STYLE6">神杖</span>，开启钓鱼岛地图</p></td>
+    <td valign="middle"><table width="100%" border="0">
+      <tr>
+        <td width="50"><img src="../../tu/物品/205.png" alt="" width="50" height="50" /></td>
+        <td class="STYLE22"><span class="STYLE602">神杖</span>[剧情道具]<br /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+    <td width="125" height="30" align="center" class="STYLE201">地点<br />
+      （传送代码）</td>
+    <td width="499" align="center" class="STYLE201">事件</td>
+    <td width="212" align="center" class="STYLE201">奖励</td>
+  </tr>
+  <tr>
+    <td height="35" align="center" class="STYLE401">钓鱼岛<br />
+      （104）</td>
+    <td class="STYLE2"><p>最终决战，共四场：<br />
+        <strong>①</strong>VS真田幸村+15名忍者<br />
+        <strong>②</strong>VS宫本武藏+19名武士<br />
+        <strong>③</strong>VS织田信长等20位大名<br />
+        <strong>④</strong>VS小犬蠢狼+19名战犯</p>
+    <p> 战胜后通关，游戏结束，周目数+1 </p></td>
+    <td valign="middle">&nbsp;</td>
+  </tr>
+</table>
+<br />
+<br />    
+<hr />
+<div id="left">
+    <table width="95" border="1" cellspacing="0" bordercolor="#cccccc" frame="box">
+     <tr>
+      <td height="35" align="center" valign="middle"><a onmouseover="MM_swapImage('Image1','','../../tu/fuzhu/float-01.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tianshu/tianshu.html"><IMG id=Image1 border=0 name=Image1 alt="" src="../../tu/fuzhu/float01.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image2','','../../tu/fuzhu/float-02.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhixian/zhixian.html"><IMG id=Image2 border=0 name=Image2 alt="" src="../../tu/fuzhu/float02.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image3','','../../tu/fuzhu/float-03.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/menpai/menpai.html"><IMG id=Image3 border=0 name=Image3 alt="" src="../../tu/fuzhu/float03.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image4','','../../tu/fuzhu/float-04.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/ren/ren.html"><IMG id=Image4 border=0 name=Image4 alt="" src="../../tu/fuzhu/float04.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image5','','../../tu/fuzhu/float-05.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/gongfa/gongfa.html"><IMG id=Image5 border=0 name=Image5 alt="" src="../../tu/fuzhu/float05.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image6','','../../tu/fuzhu/float-06.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yaowu/yaowu.html"><IMG id=Image6 border=0 name=Image6 alt="" src="../../tu/fuzhu/float06.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image7','','../../tu/fuzhu/float-07.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yinxin/yinxin.html"><IMG id=Image7 border=0 name=Image7 alt="" src="../../tu/fuzhu/float07.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image8','','../../tu/fuzhu/float-08.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/bingjia/bingjia.html"><IMG id=Image8 border=0 name=Image8 alt="" src="../../tu/fuzhu/float08.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image9','','../../tu/fuzhu/float-09.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/renwu/renwu.html"><IMG id=Image9 border=0 name=Image9 alt="" src="../../tu/fuzhu/float09.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image10','','../../tu/fuzhu/float-10.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tiaozhan/tiaozhan.html"><IMG id=Image10 border=0 name=Image10 alt="" src="../../tu/fuzhu/float10.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image11','','../../tu/fuzhu/float-11.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/jichu/jichu.html"><IMG id=Image11 border=0 name=Image11 alt="" src="../../tu/fuzhu/float11.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image12','','../../tu/fuzhu/float-12.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhuangtai/zhuangtai.html"><IMG id=Image12 border=0 name=Image12 alt="" src="../../tu/fuzhu/float12.png" width=90 height=35 /></a></td></tr>
+  </table></div>
+<div id="right"><a onmouseover="MM_swapImage('Image13','','../../tu/fuzhu/top01-1.png',1)" onmouseout=MM_swapImgRestore() href="#top"><IMG id=Image13 border=0 name=Image13 alt="" src="../../tu/fuzhu/top01.png" width=90 height=35 /></a></div>
+ <table align="center" width="850">
+ <tr>
+  <td width="850" align="center" class="STYLE2"><a href="江湖轶事.html" class="STYLE22">上一页·江湖轶事</a></td></tr></table>
+</body>
+</html>

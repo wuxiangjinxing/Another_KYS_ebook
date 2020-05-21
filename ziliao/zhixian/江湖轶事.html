@@ -1,0 +1,924 @@
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 transitional//EN" "http://www.w3.org/tr/xhtml1/Dtd/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+@import url("../../js/new.css");
+#left{
+    position: fixed;
+    top: 130px;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+    border: 0px solid #000;
+	left: 150px;
+}
+#right{
+    position: fixed;
+    top: 680px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 0px solid #000;
+	right: 160px;
+}
+.STYLE1 {
+	color: #F00;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE101 {
+	color: #F00;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE102 {
+	color: #FF00FF;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE2 {
+	color: #000;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE201 {
+	color: #000;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE202 {
+	color: #000;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE3 {
+	color:#000;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{cursor:url(../../1/7.cur);}
+html{
+	overflow-x:hidden; 
+    overflow-y:auto; 
+}
+body{
+	cursor:url(../../1/5.cur);
+	overflow-y:hidden;
+	background-image:url(../../tu/body_bg.jpg);
+}
+.STYLE4 {
+	color: #060;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE401 {
+	color: #060;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE402 {
+	color: #060;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE403 {
+	color: #060;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE6 {
+	color:#06f;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE601 {
+	color: #06f;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE602 {
+	color: #06f;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE10 {
+	color:#930;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE10a {
+	color: #930;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE17 {
+	color:#0C0;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE171 {
+	color: #0C0;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE19 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE191 {
+	font-size: 14px;
+	color: #63F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE21 {
+	color:#309;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE22 {
+	color: #B8860B;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE221 {
+	color: #EE9A49;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE23 {
+	color:#F63;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.STYLE24 {color: #006633; font-size: 16px; font-family: Arial, Helvetica, sans-serif; }
+.STYLE25 {color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE26 {
+	color: #00688b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.STYLE261 {
+	color: #00688b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.STYLE27 {color:#666; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+.STYLE271 {
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+.STYLE30 {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+.STYLE31 {
+	color: #EE3A8C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.STYLE32 {
+	color:#666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+.STYLE35 {
+	color: #4B0082;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#Layer1 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 2570px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer2 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 2870px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer3 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3000px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer4 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3060px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer5 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3120px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer6 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3180px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer7 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3240px;
+	background-image:url(../../tu/bg1.png);
+}
+#Layer8 {
+	position:absolute;
+	width:300px;
+	height:95px;
+	z-index:1;
+	left: 690px;
+	top: 3300px;
+	background-image:url(../../tu/bg1.png);
+}
+-->
+</style>
+<script type="text/javascript" src="/iframe.js"></script>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function ddd(obj, sType) { 
+var oDiv = document.getElementById(obj); 
+if (sType == 'show') { oDiv.style.display = 'block';} 
+if (sType == 'hide') { oDiv.style.display = 'none';} 
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('../../tu/fuzhu/back3.png')">
+<table width="850" border="0" align="center">
+  <tr>
+  <td width="200" align="center" class="STYLE30" bgcolor="#0066FF" id="1">江湖轶事</td>
+  <td align="right"><a href="zhixian.html" onMouseOver="MM_swapImage('Image0','','../../tu/fuzhu/back3.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../../tu/fuzhu/back2.png" alt="" name="Image0" width="50" height="50" border="0" id="Image0" /></a></td>
+  </tr>
+</table>
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="120" height="30" align="center" class="STYLE201">地点<br />（传送代码）</td>
+   <td width="495" align="center" class="STYLE201">事件</td>
+   <td width="221" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="65" align="center" class="STYLE401">小村<br />
+    （70）</td>
+   <td class="STYLE2">与北丑对话，给银两，得<span class="STYLE601">[铁铲]</span></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/物品/195.png" width="50" height="50" /></td>
+     <td class="STYLE602">铁铲<span class="STYLE22">[剧情道具]</span></td></tr></table></td></tr>
+    <tr>
+   <td align="center" class="STYLE401">西部农村<br />
+     （105）</td>
+   <td class="STYLE2">将<span class="STYLE601">[铁铲]</span>给房间里的人，出现分支选项：<br />
+     <span class="STYLE2">1.选择</span><span class="STYLE31">『不是』</span><span class="STYLE2">，则事件结束，</span><span class="STYLE101">道德-10</span><span class="STYLE2">；<br />
+     2.选择</span><span class="STYLE31">『教武功』</span><span class="STYLE2">，剧情后选择</span><span class="STYLE31">『收钱』</span><span class="STYLE2">，</span><span class="STYLE6">[银两5两]</span><span class="STYLE2">，</span><span class="STYLE17">道德+1</span><span class="STYLE2"><br />
+     3.选择</span><span class="STYLE31">『教武功』</span><span class="STYLE2">，剧情后选择</span><span class="STYLE31">『不收钱』</span><span class="STYLE2">，</span><span class="STYLE17">道德+2</span></td>
+  <td class="STYLE202" align="left">&nbsp;</td></tr></table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="120" height="30" align="center" class="STYLE201">地点<br />
+    （传送代码）</td>
+   <td width="495" align="center" class="STYLE201">事件</td>
+   <td width="221" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="65" align="center" class="STYLE401">龙门客栈<br />
+    （60）</td>
+   <td class="STYLE2"><p>客栈厨房对话人厨子，有<span class="STYLE101">【食神秘籍】</span><span class="STYLE403">人厨子入队</span>，得<span class="STYLE101">【奇门三才刀】</span></p>
+    <p><span class="STYLE171">*</span><span class="STYLE1">【食神秘籍】</span><span class="STYLE171">在桃花岛屋内两房间中的空隙（可开局搜刮）</span></p></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/物品/159.png" width="50" height="50" /></td>
+     <td class="STYLE1">奇门三才刀<span class="STYLE22">[刀法秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/head/89.png" width="50" height="50" /></td>
+     <td class="STYLE221">人厨子<span class="STYLE22">[队友]</span></td></tr></table></td>
+     </tr>
+    <tr>
+   <td align="center" class="STYLE401">老祖居<br />
+     （102）</td>
+   <td class="STYLE2"><p>对话祖千秋，给<span class="STYLE601">[翡翠杯]</span>，<span class="STYLE17">道德+1</span>，<span class="STYLE403">祖千秋入队</span>，得<span class="STYLE101">【大嵩阳掌】</span></p>
+     <p><span class="STYLE171">*</span><span class="STYLE602">翡翠杯</span><span class="STYLE171">在朱府小道的宝箱（可开局搜刮）</span></p></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"></td>
+     <td class="STYLE171">道德+1</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/265.png" width="50" height="50" /></td>
+     <td class="STYLE1">大嵩阳掌<span class="STYLE22">[拳掌秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/head/88.png" width="50" height="50" /></td>
+     <td class="STYLE221">祖千秋<span class="STYLE22">[队友]</span></td></tr></table></td></tr></table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="120" height="30" align="center" class="STYLE201">地点<br />
+    （传送代码）</td>
+   <td width="495" align="center" class="STYLE201">事件</td>
+   <td width="221" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="65" align="center" class="STYLE401">冲霄洞<br />
+    （66）</td>
+   <td class="STYLE2">与谭婆对话，出现分支：<br />1.选择<span class="STYLE31">『是』</span>，再与赵钱孙对话，得<span class="STYLE101">【修罗刀法】</span>；<br />
+     2.选择<span class="STYLE31">『否』</span>，谭公给<span class="STYLE101">【渔叟钓法】</span></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/物品/158.png" width="50" height="50" /></td>
+     <td class="STYLE1">修罗刀法<span class="STYLE22">[刀法秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/177.png" width="50" height="50" /></td>
+     <td class="STYLE1">渔叟钓法<span class="STYLE22">[奇门秘籍]</span></td></tr></table></td></tr>
+    <tr>
+   <td align="center" class="STYLE401">天台山<br />
+     （100）</td>
+   <td class="STYLE2"><p>与智光大师对话，根据道德值高低获得不同奖励：<br />
+     1.道德值&lt;80，获得<span class="STYLE101">【慈悲刀法】</span>；<br />
+     2.道德值&ge;80，获得<span class="STYLE101">【燃木刀法】</span> </p>
+     <p class="STYLE171">*需在<span class="STYLE1"><strong>《天龙八部》</strong></span>正线剧情进行到揭开乔峰身世之前触发</p></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/物品/160.png" width="50" height="50" /></td>
+     <td class="STYLE1">慈悲刀法<span class="STYLE22">[刀法秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/137.png" width="50" height="50" /></td>
+<td class="STYLE1">燃木刀法<span class="STYLE22">[刀法秘籍]</span></td></tr></table></td></tr></table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="120" height="30" align="center" class="STYLE201">地点<br />
+    （传送代码）</td>
+   <td width="495" align="center" class="STYLE201">事件</td>
+   <td width="221" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="65" align="center" class="STYLE401">蝴蝶谷<br />
+    （44）</td>
+   <td class="STYLE2"><p>房间内与胡青牛对话，<span class="STYLE35">VS金花婆婆</span><br />
+     获胜后<span class="STYLE17">道德+1</span>，回小村可收<span class="STYLE403">胡青牛、王难姑入队</span></p>
+     <p class="STYLE171">*金花婆婆身上可以偷取<span class="STYLE1">【夺命金花】</span><br />
+     *需在<span class="STYLE1"><strong>《倚天屠龙记》</strong></span>剧情进行到灵蛇岛前触发</p></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"></td>
+     <td class="STYLE171">道德+1</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/325.png" width="50" height="50" /></td>
+     <td class="STYLE1">夺命金花<span class="STYLE22">[暗器秘籍]<br />
+     </span><span class="STYLE171">偷金花婆婆</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/head/16.png" width="50" height="50" /></td>
+     <td class="STYLE221">胡青牛<span class="STYLE22">[队友]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/head/17.png" width="50" height="50" /></td>
+     <td class="STYLE221">王难姑<span class="STYLE22">[队友]</span></td></tr></table></td></tr>
+</table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="120" height="30" align="center" class="STYLE201">地点<br />
+    （传送代码）</td>
+   <td width="495" align="center" class="STYLE201">事件</td>
+   <td width="221" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="65" align="center" class="STYLE401">重阳宫<br />
+    （19）</td>
+   <td class="STYLE2">左边房间开启宝箱，<span class="STYLE35">VS孙不二+郝大通+少数全真教徒</span><br />
+获胜后<span class="STYLE101">道德-3</span>，得<span class="STYLE101">【北斗罡剑】</span></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"></td>
+     <td class="STYLE1">道德-3</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/122.png" width="50" height="50" /></td>
+     <td class="STYLE1">北斗罡剑<span class="STYLE22">[剑法秘籍]</span></td></tr></table></td></tr>
+    <tr>
+   <td align="center" class="STYLE401">铁掌山<br />
+     （48）</td>
+   <td class="STYLE2"><p>清理门口看门弟子，<span class="STYLE101">道德-1</span><br />
+     房间内与裘千仞对话，选择<span class="STYLE31">『是』</span>，<span class="STYLE35">VS裘千仞+铁掌帮众</span><br />
+     获胜后得<span class="STYLE101">【铁掌掌谱】</span></p>
+     <p class="STYLE171">*需在<span class="STYLE1"><strong>《射雕英雄传》</strong></span>剧情进行到铁掌山前触发</p></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"></td>
+     <td class="STYLE1">道德-1</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/100.png" width="50" height="50" /></td>
+     <td class="STYLE1">铁掌掌谱<span class="STYLE22">[拳掌秘籍]</span></td></tr></table></td></tr>
+      <tr>
+   <td align="center" class="STYLE401">洛阳城<br />
+     （40）</td>
+   <td class="STYLE2"><p>练功房与王氏门人对话，选择<span class="STYLE31">『是』</span>，<span class="STYLE35">单挑王氏门人</span><br />
+     获胜后得<span class="STYLE101">【五虎断门刀】</span>，<span class="STYLE101">道德-1</span><br />
+     大堂与王元霸对话，选择<span class="STYLE31">『是』</span>，<span class="STYLE35">单挑王元霸</span><br />
+     获胜后得<span class="STYLE10">[金刀]</span>，<span class="STYLE101">道德-5</span></p>
+     <p class="STYLE171">*需在<span class="STYLE1"><strong>《笑傲江湖》</strong></span>剧情进行到洛阳城前触发</p></td>
+ <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/物品/143.png" width="50" height="50" /></td>
+     <td class="STYLE1">五虎断门刀<span class="STYLE22">[刀法秘籍]</span><br />
+       道德-1</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/47.png" width="50" height="50" /></td>
+     <td class="STYLE10a">金刀<span class="STYLE22">[武器]<br />
+     </span><span class="STYLE1">道德-5</span></td></tr></table></td></tr>
+      <tr>
+   <td align="center" class="STYLE401">少林寺<br />
+     （28）</td>
+   <td class="STYLE2">道德值&ge;80与玄慈对话：<br />
+     御剑系数&gt;耍刀系数得<span class="STYLE101">【达摩剑法】</span><br />
+     耍刀系数&ge;御剑系数得<span class="STYLE101">【降魔刀法】</span></td>
+   <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/物品/273.png" width="50" height="50" /></td>
+     <td class="STYLE1">达摩剑法<span class="STYLE22">[剑法秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/276.png" width="50" height="50" /></td>
+     <td class="STYLE1">降魔刀法<span class="STYLE22">[刀法秘籍]</span></td></tr></table></td></tr>
+   <tr>
+    <td align="center" class="STYLE401">少林寺<br />
+     （28）</td>
+    <td class="STYLE2">开启小道宝箱，<span class="STYLE101">道德-5</span>，<span class="STYLE35">单挑达摩祖师</span><br />
+  胜败均可得<span class="STYLE101">【须弥山神掌】</span>，获胜后得<span class="STYLE403">[烈阳丸]</span>、<span class="STYLE403">[寒露丹]</span>、<span class="STYLE403">[半夏散]</span></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50">&nbsp;</td>
+     <td class="STYLE1">道德-5</td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/88.png" width="50" height="50" /></td>
+     <td class="STYLE1">须弥山神掌<span class="STYLE22">[拳掌秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/256.png" width="50" height="50" /></td>
+     <td class="STYLE402">烈阳丸<span class="STYLE22">[药品]</span><br />
+       <span class="STYLE171">胜达摩获得</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/257.png" width="50" height="50" /></td>
+     <td class="STYLE402">寒露丹<span class="STYLE22">[药品]</span><br />
+<span class="STYLE171">胜达摩获得</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/258.png" width="50" height="50" /></td>
+     <td class="STYLE402">半夏散<span class="STYLE22">[药品]</span><br />
+<span class="STYLE171">胜达摩获得</span></td></tr></table></td></tr>
+   <tr>
+   <td align="center" class="STYLE401">少林寺<br />
+     （28）</td>
+    <td class="STYLE2"><p>通过木人巷得<span class="STYLE101">【伏魔杖法】</span>，通过铜人巷得<span class="STYLE101">【易筋经】</span></p>
+     <p><span class="STYLE171">*不论胜败，均只能挑战一次</span></p></td>
+    <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/物品/168.png" width="50" height="50" /></td>
+     <td class="STYLE1">伏魔杖法<span class="STYLE22">[奇门秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/85.png" width="50" height="50" /></td>
+     <td class="STYLE1">易筋经<span class="STYLE22">[内功秘籍]</span></td></tr></table></td></tr>
+   <tr>
+    <td align="center" class="STYLE401" rowspan="2">少林寺<br />
+     （28）</td>
+    <td class="STYLE2" colspan="2"><p>开启佛堂房间宝箱，<span class="STYLE35">VS达摩+扫地+玄慈+空闻+空性</span><br />
+      获胜后得<span class="STYLE101">【狮吼功法】</span>、<span class="STYLE101">【十八泥偶】</span>、<span class="STYLE101">【龙爪手】</span>、<span class="STYLE101">【大金刚掌】</span>、<span class="STYLE101">【燃木刀法】</span>、<span class="STYLE101">【伏魔杖法】</span>、<span class="STYLE101">【金刚伏魔圈】</span>、<span class="STYLE101">【达摩剑法】</span>、<span class="STYLE101">【降魔刀法】</span>、<span class="STYLE101">【金刚不坏体】</span>、<span class="STYLE403">[玉灵散]</span>、<span class="STYLE19">【立心天地】</span>、<span class="STYLE10">[佛心甲]</span></p>
+     <p><span class="STYLE171">*只有一次机会</span></p></td></tr>
+ <tr>
+  <td colspan="2">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50"><img src="../../tu/物品/69.png" width="50" height="50" /></td>
+     <td width="160" class="STYLE1">狮吼功法<span class="STYLE22">[内功秘籍]</span></td>
+     <td width="50"><img src="../../tu/物品/72.png" width="50" height="50" /></td>
+     <td class="STYLE1">十八泥偶<span class="STYLE22">[内功秘籍]</span></td>
+     <td width="50"><img src="../../tu/物品/288.png" width="50" height="50" /></td>
+     <td class="STYLE1">金刚不坏体<span class="STYLE22">[内功秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/273.png" width="50" height="50" /></td>
+     <td class="STYLE1">达摩剑法<span class="STYLE22">[剑法秘籍]</span></td>
+     <td width="50"><img src="../../tu/物品/276.png" width="50" height="50" /></td>
+     <td class="STYLE1">降魔刀法<span class="STYLE22">[刀法秘籍]</span></td>
+     <td width="50"><img src="../../tu/物品/137.png" width="50" height="50" /></td>
+<td class="STYLE1">燃木刀法<span class="STYLE22">[刀法秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/92.png" width="50" height="50" /></td>
+     <td class="STYLE1">龙爪手<span class="STYLE22">[拳掌秘籍]</span></td>
+     <td width="50"><img src="../../tu/物品/90.png" width="50" height="50" /></td>
+     <td class="STYLE1">大金刚掌<span class="STYLE22">[拳掌秘籍]</span></td>
+     <td width="50"><img src="../../tu/物品/168.png" width="50" height="50" /></td>
+     <td class="STYLE1">伏魔杖法<span class="STYLE22">[奇门秘籍]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/物品/171.png" width="50" height="50" /></td>
+     <td class="STYLE1">金刚伏魔圈<span class="STYLE22">[奇门秘籍]</span></td>
+     <td width="50"><img src="../../tu/物品/62.png" width="50" height="50" /></td>
+     <td class="STYLE10a">佛心甲<span class="STYLE22">[防具]</span></td>
+     <td width="50"><img src="../../tu/物品/13.png" width="50" height="50" /></td>
+     <td class="STYLE402">玉灵散<span class="STYLE22">[药品]</span></td></tr>
+     <tr>
+     <td width="50"><img src="../../tu/印.png" width="50" height="25" /></td>
+     <td class="STYLE1"><span class="STYLE191">【立心天地】</span></td></tr></table></td></tr>
+  </table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="120" height="30" align="center" class="STYLE201">地点<br />
+    （传送代码）</td>
+   <td width="495" align="center" class="STYLE201">事件</td>
+   <td width="221" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="65" align="center" class="STYLE401">武当派<br />
+    （60）</td>
+   <td class="STYLE2"><p>与张三丰对话可选择切磋：<br />
+     道德&ge;70，攻击&ge;100，战败后得<span class="STYLE101">【太极拳】</span><br />
+     道德&ge;80，战败后得<span class="STYLE101">【纯阳无极功】</span><br />
+     道德&ge;90，攻击&ge;140，战败后得<span class="STYLE101">【太极剑法】</span></p>
+     <p><span class="STYLE171">*若在拿太极剑法之前击败张三丰，得600技能点和【明心见性】，主角全系数+10，之后不能再切磋</span></p></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/物品/97.png" width="50" height="50" /></td>
+  <td class="STYLE1">太极拳<span class="STYLE22">[拳掌秘籍]</span></td></tr>
+  <tr>
+       <td width="50"><img src="../../tu/物品/76.png" width="50" height="50" /></td>
+  <td class="STYLE1">纯阳无极功<span class="STYLE22">[内功秘籍]</span></td></tr>
+  <tr>
+       <td width="50"><img src="../../tu/物品/115.png" width="50" height="50" /></td>
+  <td class="STYLE1">太极剑法<span class="STYLE22">[剑法秘籍]</span></td></tr>
+  <tr>
+       <td width="50"><img src="../../tu/印.png" width="50" height="25" /></td>
+  <td class="STYLE1"><span class="STYLE191">【明心见性】</span><br /><span class="STYLE171">胜张三丰获得</span>
+    </td></tr></table></td></tr>
+    </table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="120" height="30" align="center" class="STYLE201">地点<br />
+    （传送代码）</td>
+   <td width="495" align="center" class="STYLE201">事件</td>
+   <td width="221" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="65" align="center" class="STYLE401">百花谷<br />
+    （20）</td>
+   <td class="STYLE2">对话周伯通切磋<span class="STYLE403">（可重复挑战）</span><br />
+     获胜后得<span class="STYLE19">【醉武成痴】</span></td>
+       <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+     <td width="50"><img src="../../tu/印.png" width="50" height="25" /></td>
+  <td class="STYLE19"><span class="STYLE191">【醉武成痴】</span></td></tr></table></td></tr>
+    <tr>
+   <td align="center" class="STYLE401">华山后山<br />
+     （80）</td>
+   <td class="STYLE2">对话独孤求败切磋<span class="STYLE403">（可重复挑战）</span><br />
+     获胜后得<span class="STYLE19">【无我无剑】</span></td>
+     <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+     <td width="50"><img src="../../tu/印.png" width="50" height="25" /></td>
+  <td class="STYLE19"><span class="STYLE191">【无我无剑】</span></td></tr></table></td></tr>
+      <tr>
+   <td align="center" class="STYLE401">小村<br />
+     （70）</td>
+   <td class="STYLE2">收集七本天书后对话小二，挑战水镜四奇<span class="STYLE403">（可重复挑战）</span><br />
+     获胜后水镜入队，得<span class="STYLE19">【明镜非台】</span></td>
+     <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+     <td width="50"><img src="../../tu/印.png" width="50" height="25" /></td>
+  <td class="STYLE19"><span class="STYLE191">【明镜非台】</span></td></tr></table></td></tr>
+      <tr>
+   <td align="center" class="STYLE401">小村<br />
+     （70）</td>
+   <td class="STYLE2">战胜水镜后对话小二，挑战小二<span class="STYLE403">（可重复挑战）</span><br />     
+     获胜后得<span class="STYLE19">【九曲连环】【云雷奋激】</span></td>
+     <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+     <td width="50"><img src="../../tu/印.png" width="50" height="25" /></td>
+  <td class="STYLE19"><span class="STYLE191">【九曲连环】</span></td></tr>
+          <tr>
+         <td width="50"><img src="../../tu/印.png" width="50" height="25" /></td>
+          <td><span class="STYLE191">【云雷奋激】</span></td></tr></table></td></tr>
+      <tr>
+   <td align="center" class="STYLE401">小村<br />
+     （70）</td>
+   <td class="STYLE2">战胜小二后对话小二，挑战春风醉<span class="STYLE403">（可重复挑战）</span><br />     
+     获胜后得<span class="STYLE19">【浮光掠影】</span></td>
+     <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+     <td width="50"><img src="../../tu/印.png" width="50" height="25" /></td>
+  <td class="STYLE19"><span class="STYLE191">【浮光掠影】</span>
+         </td></tr></table></td></tr></table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="120" height="30" align="center" class="STYLE201">地点<br />
+    （传送代码）</td>
+   <td width="495" align="center" class="STYLE201">事件</td>
+   <td width="221" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="65" align="center" class="STYLE401">不老长春谷</td>
+   <td height="50" class="STYLE2">进入方式：从无名山洞<span class="STYLE403">（41）</span>中间的十字路口向左转走到底<span class="STYLE403">（无法直接使用马车到达）</span></td>
+   <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50">&nbsp;</td></tr></table></td></tr>
+    <tr>
+    <td height="65" align="center" class="STYLE401">不老长春谷</td>
+     <td class="STYLE2">
+事件1：<br />
+与逍遥子对话，获得<span class="STYLE403">[烈阳丸]</span>、<span class="STYLE403">[寒露丹]</span>、<span class="STYLE403">[半夏散]</span><br />
+之后<span class="STYLE35">单挑逍遥三圣</span><br />
+战败，可领悟<span class="STYLE102">[蛤蟆功]</span><br />战胜，可领悟<span class="STYLE102">[小无相功]</span><span class="STYLE403">（内功）</span>，获得<span class="STYLE101">【逆运真经】</span>、<span class="STYLE101">【龙象般若功】</span></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td><img src="../../tu/物品/256.png" width="50" height="50" /></td>
+       <td class="STYLE402">烈阳丸<span class="STYLE22">[药品]</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/物品/257.png" width="50" height="50" /></td>
+       <td class="STYLE402">寒露丹<span class="STYLE22">[药品]</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/物品/258.png" width="50" height="50" /></td>
+       <td class="STYLE402">半夏散<span class="STYLE22">[药品]</span></td>
+     </tr>
+    <tr>
+     <td width="50"><img src="../../tu/物品/82.png" width="50" height="50" /></td>
+     <td class="STYLE1">逆运真经<span class="STYLE22">[内功秘籍]</span></td></tr>
+     <tr>
+      <td width="50"><img src="../../tu/物品/81.png" width="50" height="50" /></td>
+     <td class="STYLE1">龙象般若功<span class="STYLE22">[内功秘籍]</span></td></tr></table></td>
+  </tr>
+  <tr>
+  <td height="65" align="center" class="STYLE401">不老长春谷</td>
+     <td class="STYLE2">
+事件2：<br />
+<span class="STYLE101"><strong>《天龙八部》</strong></span>剧情进行至天龙寺剧情后，对话寺里左方的和尚取得书信，不老谷对话段思平后会触发战斗，<span class="STYLE35">单挑段思平</span><br />
+战胜，可领悟<span class="STYLE101">『六脉神剑』</span>以及<span class="STYLE102">[天南易阳诀]</span><br />
+战败，可领悟<span class="STYLE101">『一阳指』</span><span class="STYLE403">（失去领悟龙行虎步的机会）</span></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50">&nbsp;</td>
+     </tr></table></td>
+  </tr>
+  <tr>
+  <td height="65" align="center" class="STYLE401">不老长春谷</td>
+     <td class="STYLE2">
+事件3：<br />
+射雕正线结束后，主角学有<span class="STYLE102">[九阴神功]</span>与<span class="STYLE102">[先天功]</span>，对话黄裳触发战斗<span class="STYLE403">（开打前身上的</span><span class="STYLE101">【九阴真经】</span><span class="STYLE403">以及</span><span class="STYLE101">【先天功】</span><span class="STYLE403">会被夺走）</span><br />
+战胜，可领悟<span class="STYLE102">[九阴神功]</span>，npc归还二武功<br />
+战败，仅归还<span class="STYLE101">【九阴真经】</span>，且无法领悟</td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50">&nbsp;</td>
+       <td class="STYLE402">&nbsp;</td>
+     </tr></table></td>
+  </tr>
+  <tr>
+  <td height="65" align="center" class="STYLE401">不老长春谷</td>
+     <td class="STYLE2">
+事件4：<br />
+①不老长春谷底，逍遥子旁边可进入长春谷山顶，进入需<span class="STYLE35">挑战无酒不欢</span><span class="STYLE403">（机会只有一次）</span><br />
+战胜后主角全系数999，获得20颗<span class="STYLE403">[天王保命丹]</span><br />
+②到达山顶后，路上会接受<span class="STYLE35">张三丰、达摩二人组考验</span>，需取胜<span class="STYLE403">（机会只有一次）</span><br />
+③成功通过考验后<span class="STYLE35">挑战新旧三绝</span><br />
+战胜，可享有一次合成内功的机会<br />
+战败，分支剧情结束</td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+     <td width="50"><img src="../../tu/物品/8.png" alt="" width="50" height="50" /></td>
+     <td class="STYLE402">天王保命丹<span class="STYLE22">[药品]
+
+</span></td></tr></table></td>
+  </tr></table><br />
+<table width="850" border="1" align="center" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+   <td width="120" height="30" align="center" class="STYLE201">地点<br />
+    （传送代码）</td>
+   <td width="495" align="center" class="STYLE201">事件</td>
+   <td width="221" align="center" class="STYLE201">奖励</td> 
+  </tr>
+  <tr>
+   <td height="65" align="center" class="STYLE401">剑冢</td>
+   <td height="50" class="STYLE2">进入方式：从神雕山洞<span class="STYLE403">（7）</span>玄铁剑旁的山洞进入<span class="STYLE403">（无法直接使用马车到达）</span><br />
+对话独孤剑灵后，可选择五剑进行挑战</td>
+   <td valign="middle">
+   <table width="100%" border="0">
+    <tr>
+     <td width="50">&nbsp;</td></tr></table></td></tr>
+    <tr>
+    <td height="65" align="center" class="STYLE32">「利剑」</td>
+     <td class="STYLE2"><span class="STYLE35">挑战五岳掌门</span>，获胜后攻击力加200点，内力加2000点<span class="STYLE403">（会被资质限制）</span>，<span class="STYLE403">[天王保命丹]</span>*10，<span class="STYLE403">[烈阳丸]</span>、<span class="STYLE403">[寒露丹]</span>、<span class="STYLE403">[半夏散]</span>各3颗</td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/物品/256.png" width="50" height="50" /></td>
+       <td class="STYLE402">烈阳丸<span class="STYLE22">[药品]</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/物品/257.png" width="50" height="50" /></td>
+       <td class="STYLE402">寒露丹<span class="STYLE22">[药品]</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/物品/258.png" width="50" height="50" /></td>
+       <td class="STYLE402">半夏散<span class="STYLE22">[药品]</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/物品/8.png" alt="" width="50" height="50" /></td>
+       <td class="STYLE402">天王保命丹<span class="STYLE22">[药品] </span></td>
+     </tr></table></td>
+  </tr>
+   <tr>
+    <td height="65" align="center" class="STYLE32">「软剑」</td>
+     <td class="STYLE2"><span class="STYLE35">挑战老五绝</span>，获胜后御剑能力加200点<br />
+获得印信：<br />
+<span class="STYLE19">【剑御万法】【时乘六龙】【乘云游雾】【龙战于野】【暴雨梨花】【天宵狂浪】【血沸神狂】【井月天星】【玄元真武】</span></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td><img src="../../tu/印.png" width="50" height="25" /></td>
+       <td class="STYLE19"><span class="STYLE191">【剑御万法】</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/印.png" width="50" height="25" /></td>
+       <td class="STYLE19"><span class="STYLE191">【时乘六龙】</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/印.png" width="50" height="25" /></td>
+       <td class="STYLE19"><span class="STYLE191">【乘云游雾】</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/印.png" width="50" height="25" /></td>
+       <td class="STYLE19"><span class="STYLE191">【龙战于野】</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/印.png" width="50" height="25" /></td>
+       <td class="STYLE19"><span class="STYLE191">【暴雨梨花】</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/印.png" width="50" height="25" /></td>
+       <td class="STYLE19"><span class="STYLE191">【天宵狂浪】</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/印.png" width="50" height="25" /></td>
+       <td class="STYLE19"><span class="STYLE191">【血沸神狂】</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/印.png" width="50" height="25" /></td>
+       <td class="STYLE19"><span class="STYLE191">【井月天星】</span></td>
+     </tr>
+     <tr>
+       <td><img src="../../tu/印.png" width="50" height="25" /></td>
+       <td class="STYLE19"><span class="STYLE191">【玄元真武】</span></td>
+     </tr></table></td>
+  </tr>
+   <tr>
+    <td height="65" align="center" class="STYLE32">「重剑」</td>
+     <td class="STYLE2"><span class="STYLE35">挑战王重阳+林朝英+周伯通+金轮法王</span><br />
+获胜后可领悟<span class="STYLE101">『玄铁重剑』</span></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50">&nbsp;</td>
+       <td class="STYLE402">&nbsp;</td>
+     </tr></table></td>
+  </tr>
+   <tr>
+    <td height="65" align="center" class="STYLE32">「木剑」</td>
+     <td class="STYLE2"><span class="STYLE35">挑战乔峰+东方不败+鸠摩智+风清扬</span><br />
+获胜后可领悟<span class="STYLE102">[怒海剑涛]</span></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50">&nbsp;</td>
+       <td class="STYLE402">&nbsp;</td>
+     </tr></table></td>
+  </tr>
+   <tr>
+    <td height="65" align="center" class="STYLE32">「无剑」</td>
+     <td class="STYLE2"><span class="STYLE35">挑战扫地僧+无崖子+霍山</span><br />
+获胜后可领悟<span class="STYLE101">【独孤真传】</span>，御剑能力加300点，获得<span class="STYLE101">【独孤九剑】</span></td>
+  <td valign="middle">
+   <table width="100%" border="0">
+     <tr>
+       <td width="50"><img src="../../tu/物品/114.png" width="50" height="50" /></td>
+       <td class="STYLE1">独孤九剑<span class="STYLE22">[剑法秘籍]</span></td>
+     </tr></table></td>
+  </tr>
+  </table>
+<br />
+<br />    
+<hr />
+<div id="left">
+    <table width="95" border="1" cellspacing="0" bordercolor="#cccccc" frame="box">
+     <tr>
+      <td height="65" align="center" valign="middle"><a onmouseover="MM_swapImage('Image1','','../../tu/fuzhu/float-01.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tianshu/tianshu.html"><IMG id=Image1 border=0 name=Image1 alt="" src="../../tu/fuzhu/float01.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image2','','../../tu/fuzhu/float-02.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhixian/zhixian.html"><IMG id=Image2 border=0 name=Image2 alt="" src="../../tu/fuzhu/float02.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image3','','../../tu/fuzhu/float-03.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/menpai/menpai.html"><IMG id=Image3 border=0 name=Image3 alt="" src="../../tu/fuzhu/float03.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image4','','../../tu/fuzhu/float-04.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/ren/ren.html"><IMG id=Image4 border=0 name=Image4 alt="" src="../../tu/fuzhu/float04.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image5','','../../tu/fuzhu/float-05.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/gongfa/gongfa.html"><IMG id=Image5 border=0 name=Image5 alt="" src="../../tu/fuzhu/float05.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image6','','../../tu/fuzhu/float-06.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yaowu/yaowu.html"><IMG id=Image6 border=0 name=Image6 alt="" src="../../tu/fuzhu/float06.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image7','','../../tu/fuzhu/float-07.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/yinxin/yinxin.html"><IMG id=Image7 border=0 name=Image7 alt="" src="../../tu/fuzhu/float07.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image8','','../../tu/fuzhu/float-08.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/bingjia/bingjia.html"><IMG id=Image8 border=0 name=Image8 alt="" src="../../tu/fuzhu/float08.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image9','','../../tu/fuzhu/float-09.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/renwu/renwu.html"><IMG id=Image9 border=0 name=Image9 alt="" src="../../tu/fuzhu/float09.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image10','','../../tu/fuzhu/float-10.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/tiaozhan/tiaozhan.html"><IMG id=Image10 border=0 name=Image10 alt="" src="../../tu/fuzhu/float10.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image11','','../../tu/fuzhu/float-11.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/jichu/jichu.html"><IMG id=Image11 border=0 name=Image11 alt="" src="../../tu/fuzhu/float11.png" width=90 height=35 /></a></td></tr>
+     <tr>
+      <td align="center"><a onmouseover="MM_swapImage('Image12','','../../tu/fuzhu/float-12.png',1)" onmouseout=MM_swapImgRestore() href="../../ziliao/zhuangtai/zhuangtai.html"><IMG id=Image12 border=0 name=Image12 alt="" src="../../tu/fuzhu/float12.png" width=90 height=35 /></a></td></tr>
+  </table></div>
+<div id="right"><a onmouseover="MM_swapImage('Image13','','../../tu/fuzhu/top01-1.png',1)" onmouseout=MM_swapImgRestore() href="#top"><IMG id=Image13 border=0 name=Image13 alt="" src="../../tu/fuzhu/top01.png" width=90 height=35 /></a></div>
+ <table align="center">
+ <tr>
+  <td width="850" align="center" class="STYLE2"><a href="初出江湖.html" class="STYLE22">上一页·初出江湖</a>&nbsp;|&nbsp;<a href="论武觉醒.html" class="STYLE22">下一页·论武觉醒</a></td></tr></table>
+</body>
+</html>
